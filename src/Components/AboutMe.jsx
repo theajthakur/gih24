@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Heading from "../UI elements/Heading";
-import laptopImage from "../Assets/Images/laptopimage.png";
+import gihImage from "../Assets/Images/gih.png";
 
 export const AboutMe = () => {
   const [isHovered, setisHovered] = useState(false);
@@ -43,9 +43,9 @@ export const AboutMe = () => {
               } duration-300`}
           >
             <img
-              src={laptopImage}
-              alt="Profile"
-              className=" opacity-100  max-h-[300px] duration-300"
+              src={gihImage}
+              alt="gihImage"
+              className=" opacity-100  max-h-[300px] duration-300 gradientScale glassmorphism p-5 px-7"
             />
           </div>
         </div>
