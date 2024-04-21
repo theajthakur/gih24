@@ -6,7 +6,7 @@ import laptopImage from "../Assets/Images/laptopimage.png";
 const Introduction = () => {
   return (
     <div
-      className="flex justify-center items-center gap-10 min-h-screen d-[900px]"
+      className="flex flex-col lg:flex-row justify-center items-center gap-10 min-h-screen d-[900px]"
       id="intro"
     >
       <div className="flex flex-col justify-center ">
