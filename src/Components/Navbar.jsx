@@ -4,6 +4,7 @@ import { FiMenu } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
 import { motion, useAnimation } from "framer-motion";
 import { Link } from "react-scroll";
+import gihImage from "../Assets/Images/gih.png";
 
 const Navbar = () => {
   const controls = useAnimation();
@@ -66,8 +67,14 @@ const Navbar = () => {
               smooth={true}
               duration={500}
               offset={-100}
+              className="flex justify-center items-center gap-3 text-sm text-white"
             >
-              GIH
+              <img
+                src={gihImage}
+                alt="gihImage"
+                className=" opacity-100  max-h-[300px] duration-300 gradientScale glassmorphism h-12"
+              />
+              <div>Galgotias International Hackathon</div>
             </Link>
           </div>
 
@@ -112,19 +119,24 @@ const Navbar = () => {
         <motion.div
           animate={controls}
           transition={{ duration: 0.3 }}
-          className={`flex md:hidden font-mono justify-between text-base gap-8 fixed bg- p-10 h-16 w-full -mt-2 z-50 glassmorphism  ${
-            window.pageYOffset < 100 ? null : "drop-shadow-2xl"
-          } duration-1000`}
+          className={`flex md:hidden font-mono justify-between text-base gap-8 fixed bg- px-10 py-2 h-16 w-full -mt-2 z-50 glassmorphism  ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
+            } duration-1000 `}
         >
-          <div className="text-base text-primary hover:cursor-pointer hover:text-white">
+          <div className="text-base text-white hover:cursor-pointer hover:bg-primary-white">
             <Link
               to="intro"
               spy={true}
               smooth={true}
               duration={500}
               offset={-100}
+              className="flex justify-center items-center gap-3 text-sm "
             >
-              SHRIYAM
+              <img
+                src={gihImage}
+                alt="gihImage"
+                className=" opacity-100  max-h-[300px] duration-300 gradientScale glassmorphism h-12"
+              />
+              <div>Galgotias International Hackathon</div>
             </Link>
           </div>
 
