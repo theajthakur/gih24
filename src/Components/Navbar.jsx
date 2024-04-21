@@ -39,13 +39,14 @@ const Navbar = () => {
     };
   }, [prevScroll]);
   const menuItems = [
-    { id: "01", name: "Prize", to: "about" },
-    { id: "02", name: "Themes", to: "experience" },
-    { id: "03", name: "Sponsors", to: "projects" },
-    { id: "04", name: "Judges", to: "contact" },
-    { id: "05", name: "team", to: "contact" },
-    { id: "06", name: "FAQ", to: "contact" },
-    { id: "07", name: "Guidelines", to: "contact" },
+    { id: "01", name: "Intro", to: "about" }, // New item added at the top
+    { id: "02", name: "Prize", to: "about" },
+    { id: "03", name: "Themes", to: "experience" },
+    { id: "04", name: "Sponsors", to: "projects" },
+    { id: "05", name: "Judges", to: "contact" },
+    { id: "06", name: "Team", to: "contact" },
+    { id: "07", name: "FAQ", to: "contact" },
+    { id: "08", name: "Guidelines", to: "contact" },
   ];
 
   return (

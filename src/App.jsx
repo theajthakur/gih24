@@ -10,6 +10,8 @@ import Projects from "./Components/Projects";
 import RightSidebar from "./Components/RightSidebar";
 import ParticlesComponent from "./Components/Particles";
 import Prizes from "./Components/Prizes";
+import Themes from "./Components/Themes";
+import Schedule from "./Components/Schedule";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Introduction />
         <AboutMe />
         <Prizes />
+        <Themes />
+        <Schedule />
         <Experience />
         <Projects />
         <Contact />
