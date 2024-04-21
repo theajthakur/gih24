@@ -6,24 +6,25 @@ import laptopImage from "../Assets/Images/laptopimage.png";
 const Introduction = () => {
   return (
     <div
-      className="flex flex-col lg:flex-row justify-center items-center gap-10 min-h-screen d-[900px]"
+      className="flex flex-col lg:flex-row justify-center items-center gap-10 min-h-screen"
       id="intro"
     >
       <div className="flex flex-col justify-center ">
         <div className="font-mono text-primary text-md">
           Embrace the challenge
         </div>
-        <div className=" font-[700] md:text-[70px] text-[40px] font-sans text-lightest_slate">
-          <p>Innohacks 3.0</p>
+        <div className=" font-[700] md:text-[50px] text-[30px] font-sans text-lightest_slate mb-4">
+          <p>Galgotias International Hackathon!</p>
           <p className="text-sm text-slate">Hack n' Innovate</p>
         </div>
         <div className=" font-[20px] text-lightest_slate max-w-[580px] mb-8">
-          Unleash your creativity for{" "}
-          <span className="text-primary">24-Hour</span>! Join us on{" "}
-          <span className="text-primary">April 28th</span>
-          for a nationwide hackathon alongside hundreds of other{" "}
-          <span className="text-primary">student innovators</span>. Build,
-          learn, and connect - are you in?
+          Take on the challenge, Unleash your creativity for
+          <span className="text-primary"> 36 hours</span> of non-stop innovation! Get ready to join hundreds of student innovators from across the world on
+          <span className="text-primary"> May 11-12 </span>
+          for an exhilarating hackathon experience. Build cutting-edge projects, learn from
+          <span className="text-primary"> industry experts</span>, and connect with
+          <span className="text-primary"> industry experts</span>.
+          Are you ready to make your mark?
         </div>
         <Link
           to="projects"

@@ -35,7 +35,7 @@ function App() {
         <Mentors />
         <CommunityPartners />
         <Experience />
-        <Projects />
+        {/* <Projects /> */}
         <Contact />
         <Footer />
       </div>
