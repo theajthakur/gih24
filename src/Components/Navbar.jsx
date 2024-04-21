@@ -40,11 +40,11 @@ const Navbar = () => {
     };
   }, [prevScroll]);
   const menuItems = [
-    { id: "01", name: "Intro", to: "about" }, // New item added at the top
-    { id: "02", name: "Prize", to: "about" },
-    { id: "03", name: "Themes", to: "experience" },
-    { id: "04", name: "Sponsors", to: "projects" },
-    { id: "05", name: "Judges", to: "contact" },
+    { id: "01", name: "Intro", to: "intro" }, // New item added at the top
+    { id: "02", name: "Prizes", to: "prizes" },
+    { id: "03", name: "Themes", to: "themes" },
+    { id: "04", name: "Sponsors", to: "sponsors" },
+    { id: "05", name: "Judges", to: "judges" },
     { id: "06", name: "Team", to: "contact" },
     { id: "07", name: "FAQ", to: "contact" },
     { id: "08", name: "Guidelines", to: "contact" },
@@ -56,8 +56,9 @@ const Navbar = () => {
         <motion.div
           animate={controls}
           transition={{ duration: 0.3 }}
-          className={`hidden md:flex font-mono justify-between gap-10 text-base items-center fixed  p-10 h-16 w-full -mt-2 z-50 glassmorphism ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
-            } duration-1000`}
+          className={`hidden md:flex font-mono justify-between gap-10 text-base items-center fixed  p-10 h-16 w-full -mt-2 z-50 glassmorphism ${
+            window.pageYOffset < 100 ? null : "drop-shadow-2xl"
+          } duration-1000`}
         >
           <div className="text-base text-primary hover:cursor-pointer hover:text-white">
             <Link

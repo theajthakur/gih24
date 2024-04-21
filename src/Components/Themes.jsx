@@ -14,7 +14,10 @@ export default function Themes() {
     { id: 9, imgSrc: "/images/blockchain.png", title: "Ai/Ml" },
   ];
   return (
-    <div className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh]">
+    <div
+      className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh]"
+      id="themes"
+    >
       <Heading index={"03"} title={"Our Themes"} />
 
       <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3">
@@ -29,7 +32,7 @@ export default function Themes() {
                 className="object-contain w-full h-20 lg:h-24 drop-shadow-lg"
               />
             </div>
-            <p className="text-lg font-medium text-center text-lightest_slate font-mono">
+            <p className="font-mono text-lg font-medium text-center text-lightest_slate">
               {item.title}
             </p>
           </div>
