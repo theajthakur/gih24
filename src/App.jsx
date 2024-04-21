@@ -12,6 +12,10 @@ import ParticlesComponent from "./Components/Particles";
 import Prizes from "./Components/Prizes";
 import Themes from "./Components/Themes";
 import Schedule from "./Components/Schedule";
+import SponsersPartners from "./Components/SponsersPartners";
+import SpeakerJudges from "./Components/SpeakerJudges";
+import Mentors from "./Components/Mentors";
+import CommunityPartners from "./Components/CommunityPartners";
 
 function App() {
   return (
@@ -26,6 +30,10 @@ function App() {
         <Prizes />
         <Themes />
         <Schedule />
+        <SponsersPartners />
+        <SpeakerJudges />
+        <Mentors />
+        <CommunityPartners />
         <Experience />
         <Projects />
         <Contact />

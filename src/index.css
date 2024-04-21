@@ -4,7 +4,13 @@
 
 body {
   margin:40px;
-  background-color: #000000;
+  /*
+  * Created with https://www.css-gradient.com
+  * Gradient link: https://www.css-gradient.com/?c1=020102&c2=220b1b&gt=r&gd=dtl
+  */
+  background: rgb(20, 11, 20);
+  background: radial-gradient(at left top, rgb(12, 7, 12), rgb(29, 9, 23));
+
   color: aliceblue;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -23,7 +29,7 @@ code {
 }
 
 .btn_hover_shadow:hover {
-  @apply shadow-[3px_3px_#64ffda];
+  @apply shadow-[3px_3px_#DC6ABA];
 }
 
   ::-webkit-scrollbar {
@@ -37,4 +43,9 @@ code {
 
   .glassmorphism{
     @apply bg-opacity-70 backdrop-blur-lg
+  }
+
+  .gradientColor {
+    background: rgba(2, 1, 2, 1.0);
+    background: radial-gradient(at left top, rgba(2, 1, 2, 1.0), rgba(34, 11, 27, 1.0));
   }

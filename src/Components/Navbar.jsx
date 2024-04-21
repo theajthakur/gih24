@@ -55,9 +55,8 @@ const Navbar = () => {
         <motion.div
           animate={controls}
           transition={{ duration: 0.3 }}
-          className={`hidden md:flex font-mono justify-between gap-10 text-base items-center fixed bg-black p-10 h-16 w-full -mt-2 z-50 glassmorphism ${
-            window.pageYOffset < 100 ? null : "drop-shadow-2xl"
-          } duration-1000`}
+          className={`hidden md:flex font-mono justify-between gap-10 text-base items-center fixed  p-10 h-16 w-full -mt-2 z-50 glassmorphism ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
+            } duration-1000`}
         >
           <div className="text-base text-primary hover:cursor-pointer hover:text-white">
             <Link
@@ -112,9 +111,8 @@ const Navbar = () => {
         <motion.div
           animate={controls}
           transition={{ duration: 0.3 }}
-          className={`flex md:hidden font-mono justify-between text-base gap-8 fixed bg- p-10 h-16 w-full -mt-2 z-50 glassmorphism bg-navy ${
-            window.pageYOffset < 100 ? null : "drop-shadow-2xl"
-          } duration-1000`}
+          className={`flex md:hidden font-mono justify-between text-base gap-8 fixed bg- p-10 h-16 w-full -mt-2 z-50 glassmorphism  ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
+            } duration-1000`}
         >
           <div className="text-base text-primary hover:cursor-pointer hover:text-white">
             <Link
@@ -132,7 +130,7 @@ const Navbar = () => {
             <motion.div
               animate={{ x: -20 }}
               transition={{ duration: 0.3 }}
-              className="flex flex-col w-full h-screen -mt-10 -mr-16 bg-light_navy"
+              className="flex flex-col w-full h-screen -mt-10 -mr-16 gradientColor"
             >
               <IoClose
                 className="absolute top-10 text-4xl mr-[50px] text-primary hover:text-off_white self-end"

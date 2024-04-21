@@ -15,13 +15,13 @@ export default function Themes() {
   ];
   return (
     <div className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh]">
-      <Heading index={"03"} title={"Our Themes ?"} />
+      <Heading index={"03"} title={"Our Themes"} />
 
       <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3">
         {items.map((item) => (
           <div
             key={item.id}
-            className="flex flex-col items-center justify-center w-full gap-3 p-6 overflow-hidden transition-all duration-700 border border-transparent rounded-md cursor-pointer select-none hover:scale-105 bg-neutral-700 h-52 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 hover:border-primary"
+            className="flex flex-col items-center justify-center w-full gap-3 p-6 overflow-hidden transition-all duration-700 border border-transparent rounded-md cursor-default select-none hover:scale-105 glassmorphism gradientColor h-52 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 hover:border-primary"
           >
             <div>
               <img
@@ -29,7 +29,7 @@ export default function Themes() {
                 className="object-contain w-full h-20 lg:h-24 drop-shadow-lg"
               />
             </div>
-            <p className="text-lg font-medium text-center text-primary">
+            <p className="text-lg font-medium text-center text-lightest_slate font-mono">
               {item.title}
             </p>
           </div>
