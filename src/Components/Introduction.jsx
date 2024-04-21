@@ -5,8 +5,8 @@ import laptopImage from '../Assets/Images/laptopimage.png'
 
 const Introduction = () => {
   return (
-    <div className='flex justify-center items-center gap-10 h-screen d-[900px]'>
-      <div className='flex flex-col justify-center ' id='intro'>
+    <div className='flex justify-center items-center gap-10 min-h-screen d-[900px]' id='intro'>
+      <div className='flex flex-col justify-center '>
         <div className=' font-mono text-primary text-md'>Hi, my name is</div>
         <div className=' font-[700] md:text-[70px] text-[40px] font-sans text-lightest_slate leading-[1.2] pb-3'>Shriyam Gera. <br /><span className='text-slate'>I build things for the web.</span></div>
         <div className=' font-[20px] text-lightest_slate max-w-[580px] mb-8'>I'm a software engineer specializing in <span className='text-primary'>building </span>and
