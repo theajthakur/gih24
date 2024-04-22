@@ -23,7 +23,7 @@ export default function OrgTeam() {
   };
   return (
     <div
-      className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh]"
+      className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh] glassmorphism"
       id="team"
     >
       <Heading index={"06"} title={"Organizing Team"} />

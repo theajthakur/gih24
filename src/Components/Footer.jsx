@@ -5,7 +5,7 @@ import { FaXTwitter, FaDiscord, FaWhatsapp, FaInstagram } from "react-icons/fa6"
 const Footer = () => {
   return (
     <>
-      <div className='flex lg:hidden gap-4 text-2xl mt-10 '>
+      <div className='flex lg:hidden gap-4 text-2xl mt-10 glassmorphism '>
         <a href='https://discord.gg/TPJEsUxNG6' target='_blank' rel="noreferrer"><FaDiscord className='   hover:text-primary cursor-pointer duration-300' /></a>
         <a href='https://www.linkedin.com/in/#' target='_blank' rel="noreferrer"><FaXTwitter className='   hover:text-primary cursor-pointer duration-300' /></a>
         <a href='https://x.com/#' target='_blank' rel="noreferrer"><FiLinkedin className='   hover:text-primary cursor-pointer duration-300' /></a>

@@ -1,14 +1,16 @@
 import React, { useState } from "react";
 import Heading from "../UI elements/Heading";
 import gihImage from "../Assets/Images/gih.png";
+import laptopImage from "../Assets/Images/laptopimage.png";
+
 
 export const AboutMe = () => {
   const [isHovered, setisHovered] = useState(false);
   return (
-    <div className=" text-lightest_slate font-[20px]" id="intro">
+    <div className=" text-lightest_slate md:text-[30px] text-[20px] mt-10 glassmorphism" id="intro">
       <Heading index={"01"} title={"What is GIH ?"} />
       <div className="flex flex-col items-center gap-12 mt-8 lg:flex-row">
-        <div className=" max-w-[540px]">
+        <div className=" max-w-[720px]">
           <p>
             The biggest coding extravaganza in
             <span className="text-primary"> Delhi-NCR </span> is here! ⚡ Join our
@@ -17,7 +19,7 @@ export const AboutMe = () => {
             <span className="text-primary"> top speakers </span>
             from across the country live! ✨ But that's not all - win
             <span className="text-primary"> amazing prizes and goodies
-            </span>by brainstorming and creating the ultimate hack! Get ready for an unforgettable night of fun, coding, and much more on
+            </span> by brainstorming and creating the ultimate hack! Get ready for an unforgettable night of fun, coding, and much more on
             <span className="text-primary"> 11 may and 12 may </span>.
           </p>
         </div>
@@ -43,9 +45,9 @@ export const AboutMe = () => {
               } duration-300`}
           >
             <img
-              src={gihImage}
+              src={laptopImage}
               alt="gihImage"
-              className=" opacity-100  max-h-[300px] duration-300 gradientScale glassmorphism p-5 px-7"
+              className=" opacity-100  max-h-[400px] duration-300"
             />
           </div>
         </div>

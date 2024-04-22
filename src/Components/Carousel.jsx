@@ -6,7 +6,7 @@ import Heading from "../UI elements/Heading";
 export default function CarouselComp() {
   return (
     <div
-      className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh]"
+      className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh] glassmorphism"
       id="prizes"
     >
       <Heading title={"Past Edition"} />

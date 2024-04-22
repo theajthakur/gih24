@@ -16,7 +16,7 @@ const SpeakerJudges = () => {
   ];
   return (
     <div
-      className="flex flex-col justify-center w-full max-w-4xl my-10"
+      className="flex flex-col justify-center w-full max-w-4xl my-10 glassmorphism"
       id="judges"
     >
       <Heading index={"05"} title={"Speaker and Judges"} />

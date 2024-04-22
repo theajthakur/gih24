@@ -13,7 +13,7 @@ export default function Themes() {
   ];
   return (
     <div
-      className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh]"
+      className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh] glassmorphism"
       id="themes"
     >
       <Heading index={"03"} title={"Our Themes"} />

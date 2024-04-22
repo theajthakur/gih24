@@ -56,7 +56,7 @@ const Navbar = () => {
         <motion.div
           animate={controls}
           transition={{ duration: 0.3 }}
-          className={`hidden md:flex font-mono justify-between gap-10 text-base items-center fixed  p-10 h-16 w-full -mt-2 z-50 glassmorphism ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
+          className={`hidden md:flex font-mono justify-between gap-10 text-base items-center fixed  p-10 pt-16 h-16 w-full -mt-2 z-50 glassmorphism ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
             } duration-1000`}
         >
           <div className="text-base text-primary hover:cursor-pointer hover:text-white">
@@ -66,19 +66,19 @@ const Navbar = () => {
               smooth={true}
               duration={500}
               offset={-100}
-              className="flex justify-center items-center gap-3 text-sm text-white"
+              className="flex justify-center items-center gap-3 text-xl text-white"
             >
               <img
                 src={gihImage}
                 alt="gihImage"
-                className=" opacity-100  max-h-[300px] duration-300 gradientScale glassmorphism h-12"
+                className=" opacity-100  max-h-[300px] duration-300 gradientScale glassmorphism h-20"
               />
-              <div>Galgotias International Hackathon</div>
+              {/* <div>GIH</div> */}
             </Link>
           </div>
 
           <div>
-            <ul className="flex items-center gap-8 ">
+            <ul className="flex items-center gap-8 text-xl ">
               {menuItems.map((item) => (
                 <motion.li
                   key={item.id}
@@ -137,7 +137,7 @@ const Navbar = () => {
                 alt="gihImage"
                 className=" opacity-100  max-h-[300px] duration-300 gradientScale glassmorphism h-12"
               />
-              <div>Galgotias International Hackathon</div>
+              <div>GIH</div>
             </Link>
           </div>
 

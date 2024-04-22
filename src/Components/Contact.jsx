@@ -4,7 +4,7 @@ import Button from "../UI elements/Button";
 const Contact = () => {
   return (
     <div
-      className="flex flex-col items-center w-[300px] lg:w-[700px] text-center "
+      className="flex flex-col items-center w-[300px] lg:w-[700px] text-center glassmorphism "
       id="contact"
     >
       <div className="mb-2 font-mono text-lg text-primary">
