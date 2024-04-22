@@ -39,7 +39,7 @@ const Introduction = () => {
       <img
         src={laptopImage}
         alt="Hackathon"
-        className="rounded-full h-80 w-80 scale-x-[-1] opacity-75 hover:opacity-100 duration-300"
+        className="rounded-full h-80 w-80 scale-x-[-1] duration-300"
       />
     </div>
   );
