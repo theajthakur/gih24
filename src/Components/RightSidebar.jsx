@@ -4,7 +4,7 @@ const RightSidebar = () => {
   return (
     <div className=' p-2 max-w-fit flex-col items-center bottom-0 right-[20px] text-lightest_slate fixed lg:flex hidden glassmorphism '>
       <a href='mailto:galgotiahackathon24@gmail.com'>
-        <div className='flex flex-col gap-4 font-mono text-md vertical-text cursor-pointer hover:text-primary duration-200 '>
+        <div className='flex flex-col gap-4 font-mono text-2xl vertical-text cursor-pointer hover:text-primary duration-200 '>
           galgotiahackathon24@gmail.com
         </div>
       </a>
