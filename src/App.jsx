@@ -18,6 +18,7 @@ import Mentors from "./Components/Mentors";
 import CommunityPartners from "./Components/CommunityPartners";
 import CarouselComp from "./Components/Carousel";
 import FAQs from "./Components/FAQs";
+import OrgTeam from "./Components/OrgTeam";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Experience />
         <CarouselComp />
         <FAQs />
+        <OrgTeam />
         {/* <Projects /> */}
         <Contact />
         <Footer />
