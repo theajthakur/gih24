@@ -1,0 +1,25 @@
+{
+    "social_media": [
+      {
+        "logo": "https://example.com/instagram_logo.png",
+        "name": "Instagram",
+        "link": "https://instagram.com/galgotias_hackathon"
+      },
+      {
+        "logo": "https://example.com/whatsapp_logo.png",
+        "name": "WhatsApp",
+        "link": "https://wa.me/8700738711"
+      },
+      { 
+        "logo": "https://example.com/linkedin_logo.png",
+        "name": "LinkedIn",
+        "link": "https://linkedin.com/company/example"
+      },
+      {
+        "logo": "https://example.com/discord_logo.png",
+        "name": "Discord",
+        "link": "https://discord.gg/TPJEsUxNG6"
+      }
+    ]
+  }
+  
