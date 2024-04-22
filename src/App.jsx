@@ -17,6 +17,7 @@ import SpeakerJudges from "./Components/SpeakerJudges";
 import Mentors from "./Components/Mentors";
 import CommunityPartners from "./Components/CommunityPartners";
 import CarouselComp from "./Components/Carousel";
+import FAQs from "./Components/FAQs";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <CommunityPartners />
         <Experience />
         <CarouselComp />
+        <FAQs />
         {/* <Projects /> */}
         <Contact />
         <Footer />
