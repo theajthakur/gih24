@@ -7,7 +7,7 @@ const Introduction = () => {
   return (
     <div
       className="flex flex-col lg:flex-row justify-center items-center gap-10 min-h-screen"
-      id="intro"
+      id="introduction"
     >
       <div className="flex flex-col justify-center ">
         <div className="font-mono text-primary text-md">

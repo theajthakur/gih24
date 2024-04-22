@@ -7,11 +7,9 @@ export default function Themes() {
     { id: 2, imgSrc: "/images/blockchain.png", title: "Open Innovation" },
     { id: 3, imgSrc: "/images/blockchain.png", title: "Ar/Vr" },
     { id: 4, imgSrc: "/images/blockchain.png", title: "Robotics" },
-    { id: 5, imgSrc: "/images/blockchain.png", title: "Blockchaing" },
-    { id: 6, imgSrc: "/images/blockchain.png", title: "Security" },
-    { id: 7, imgSrc: "/images/blockchain.png", title: "Web" },
-    { id: 8, imgSrc: "/images/blockchain.png", title: "IOT" },
-    { id: 9, imgSrc: "/images/blockchain.png", title: "Ai/Ml" },
+    { id: 5, imgSrc: "/images/blockchain.png", title: "Web Security" },
+    { id: 6, imgSrc: "/images/blockchain.png", title: "IOT" },
+    { id: 7, imgSrc: "/images/blockchain.png", title: "Ai/Ml" },
   ];
   return (
     <div

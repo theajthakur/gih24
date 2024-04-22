@@ -19,7 +19,7 @@ const CommunityPartners = () => {
       className="flex flex-col justify-center w-full max-w-4xl my-10"
       id="community"
     >
-      <Heading index={"07"} title={"Community Partners"} />
+      <Heading title={"Community Partners"} />
 
       <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3">
         {/* {items.map((item) => (

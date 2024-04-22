@@ -40,13 +40,13 @@ const Navbar = () => {
     };
   }, [prevScroll]);
   const menuItems = [
-    { id: "01", name: "Intro", to: "intro" }, // New item added at the top
+    { id: "01", name: "Intro", to: "intro" },
     { id: "02", name: "Prizes", to: "prizes" },
     { id: "03", name: "Themes", to: "themes" },
     { id: "04", name: "Sponsors", to: "sponsors" },
     { id: "05", name: "Judges", to: "judges" },
-    { id: "06", name: "Team", to: "contact" },
-    { id: "07", name: "FAQ", to: "contact" },
+    { id: "06", name: "Team", to: "team" },
+    { id: "07", name: "FAQ", to: "faq" },
     { id: "08", name: "Guidelines", to: "contact" },
   ];
 
@@ -56,13 +56,12 @@ const Navbar = () => {
         <motion.div
           animate={controls}
           transition={{ duration: 0.3 }}
-          className={`hidden md:flex font-mono justify-between gap-10 text-base items-center fixed  p-10 h-16 w-full -mt-2 z-50 glassmorphism ${
-            window.pageYOffset < 100 ? null : "drop-shadow-2xl"
-          } duration-1000`}
+          className={`hidden md:flex font-mono justify-between gap-10 text-base items-center fixed  p-10 h-16 w-full -mt-2 z-50 glassmorphism ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
+            } duration-1000`}
         >
           <div className="text-base text-primary hover:cursor-pointer hover:text-white">
             <Link
-              to="intro"
+              to="introduction"
               spy={true}
               smooth={true}
               duration={500}
@@ -112,6 +111,8 @@ const Navbar = () => {
               </a>
             </ul>
           </div>
+
+
         </motion.div>
       </div>
 
@@ -124,7 +125,7 @@ const Navbar = () => {
         >
           <div className="text-base text-white hover:cursor-pointer hover:bg-primary-white">
             <Link
-              to="intro"
+              to="introduction"
               spy={true}
               smooth={true}
               duration={500}
@@ -154,73 +155,34 @@ const Navbar = () => {
               />
 
               <ul className="flex flex-col items-center justify-center w-full h-full ">
-                <li className=" h-[15%] w-full items-center justify-center flex gap-1 hover:text-primary hover:cursor-pointer">
-                  {" "}
-                  <Link
-                    to="about"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    offset={-100}
-                    onClick={(prev) => {
-                      settoggleMenu(!prev);
-                    }}
+
+                {menuItems.map((item) => (
+                  <motion.li
+                    key={item.id}
+                    initial={{ y: -10, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.1 }}
+                    className="h-[8%] w-full  items-center justify-center flex gap-1 hover:text-primary hover:cursor-pointer"
                   >
-                    <span className=" text-primary">01.</span>
-                    <span>About</span>
-                  </Link>
-                </li>
-                <li className=" h-[15%] w-full items-center justify-center flex gap-1 hover:text-primary hover:cursor-pointer">
-                  {" "}
-                  <Link
-                    to="experience"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    offset={-100}
-                    onClick={(prev) => {
-                      settoggleMenu(!prev);
-                    }}
-                  >
-                    <span className=" text-primary">02.</span>
-                    <span>Experience</span>
-                  </Link>
-                </li>
-                <li className=" h-[15%] w-full items-center justify-center flex gap-1 hover:text-primary hover:cursor-pointer">
-                  {" "}
-                  <Link
-                    to="projects"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    offset={-100}
-                    onClick={(prev) => {
-                      settoggleMenu(!prev);
-                    }}
-                  >
-                    <span className=" text-primary">03.</span>
-                    <span>Work</span>
-                  </Link>
-                </li>
-                <li className=" h-[15%] w-full  items-center justify-center flex gap-1 hover:text-primary hover:cursor-pointer">
-                  {" "}
-                  <Link
-                    to="contact"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    offset={-100}
-                    onClick={(prev) => {
-                      settoggleMenu(!prev);
-                    }}
-                  >
-                    <span className=" text-primary">04.</span>
-                    <span>Contact</span>
-                  </Link>
-                </li>
+                    <Link
+                      to={item.to}
+                      spy={true}
+                      smooth={true}
+                      duration={500}
+                      offset={-100}
+                      onClick={(prev) => {
+                        settoggleMenu(!prev);
+                      }}
+                    >
+                      <span className="text-primary">{item.id}.</span>
+                      <span>{item.name}</span>
+                    </Link>
+                  </motion.li>
+
+                ))}
                 <li className=" h-[15%] w-full items-center justify-center flex gap-1  hover:cursor-pointer">
                   <div>
-                    <Button title="Resume" />
+                    <Button title="Register" />
                   </div>
                 </li>
               </ul>

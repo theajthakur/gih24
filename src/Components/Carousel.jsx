@@ -9,11 +9,11 @@ export default function CarouselComp() {
       className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh]"
       id="prizes"
     >
-      <Heading index={"02"} title={"Past Edition"} />
+      <Heading title={"Past Edition"} />
       <Carousel
         showStatus={false}
         showArrows={false}
-        className="text-center rounded-md"
+        className="text-center rounded-md mt-16"
         autoFocus
         autoPlay
         emulateTouch

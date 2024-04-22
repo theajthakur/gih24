@@ -5,7 +5,7 @@ import gihImage from "../Assets/Images/gih.png";
 export const AboutMe = () => {
   const [isHovered, setisHovered] = useState(false);
   return (
-    <div className=" text-lightest_slate font-[20px]" id="about">
+    <div className=" text-lightest_slate font-[20px]" id="intro">
       <Heading index={"01"} title={"What is GIH ?"} />
       <div className="flex flex-col items-center gap-12 mt-8 lg:flex-row">
         <div className=" max-w-[540px]">

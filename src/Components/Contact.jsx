@@ -8,7 +8,7 @@ const Contact = () => {
       id="contact"
     >
       <div className="mb-2 font-mono text-lg text-primary">
-        04. What's Next?
+        What's Next?
       </div>
       <div className=" font-bold text-off_white text-[48px]"> How to reach?</div>
       <iframe
@@ -20,7 +20,7 @@ const Contact = () => {
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
       <a
-        href="https://www.linkedin.com/in/shriyamgera"
+        href='mailto:galgotiahackathon24@gmail.com'
         target="_blank"
         rel="noreferrer"
       >

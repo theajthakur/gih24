@@ -24,9 +24,9 @@ export default function OrgTeam() {
   return (
     <div
       className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh]"
-      id="prizes"
+      id="team"
     >
-      <Heading index={"02"} title={"Organizing Team"} />
+      <Heading index={"06"} title={"Organizing Team"} />
       <Carousel
         swipeable={false}
         draggable={false}
