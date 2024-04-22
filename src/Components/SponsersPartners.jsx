@@ -19,7 +19,7 @@ const SponsersPartners = () => {
       className="flex flex-col justify-center w-full max-w-4xl my-10 glassmorphism"
       id="sponsors"
     >
-      <Heading index={"04"} title={"Sponsers and Partners"} />
+      <Heading index={"04"} title={"Sponsors and Partners"} />
 
       <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3">
         {/* {items.map((item) => (
