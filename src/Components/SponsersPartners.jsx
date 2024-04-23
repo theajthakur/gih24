@@ -42,7 +42,8 @@ const SponsersPartners = () => {
         <div className="font-mono text-xl md:text-3xl">
           Looking for Sponsors and Partners
         </div>
-        <Button title="Become Sponsor/ Partners" />
+        <a href="https://forms.gle/JXfT49HFqTMb63dW8" target="_blank"><Button title="Become Sponsor/ Partners" /></a>
+
       </div>
     </div>
   );

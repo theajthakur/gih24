@@ -45,7 +45,7 @@ export default function FAQs() {
         {faqsData.map((faq, index) => (
           <details key={index} className="group [&_summary::-webkit-details-marker]:hidden">
             <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg text-white p-2 glassmorphism font-mono text-2xl ">
-              <h2 className="font-medium text-[20px] md:text-[35px] m-2">{faq.question}</h2>
+              <h2 className="font-medium text-[20px] md:text-[30px] m-3">{faq.question}</h2>
               <svg
                 className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-180"
                 xmlns="http://www.w3.org/2000/svg"

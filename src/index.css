@@ -28,7 +28,7 @@ code {
   writing-mode: vertical-rl;
 }
 
-.btn_hover_shadow:hover {
+.btn_hover_shadow {
   @apply shadow-[3px_3px_#DC6ABA];
 }
 
