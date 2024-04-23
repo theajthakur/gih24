@@ -39,10 +39,9 @@ const SpeakerJudges = () => {
                     </div>
                 ))} */}
 
-        <div className="font-mono text-xl md:text-3xl">
-          Looking for Speaker and Judges
+        <div className="flex items-center justify-center w-full rounded-md glassmorphism h-60 text-3xl font-mono">
+          Coming soon.....
         </div>
-        <Button title="Become Speaker/Judges" />
       </div>
     </div>
   );

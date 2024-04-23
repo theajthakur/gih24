@@ -11,7 +11,7 @@ export default function Prizes() {
       <p className="my-5 font-mono text-3xl text-lightest_slate">
         Prize pool worth <span>₹1.5Lakh</span>
       </p>
-      <div className="flex items-center justify-center w-full font-mono text-3xl rounded-md h-96">
+      <div className="flex items-center justify-center w-full rounded-md glassmorphism h-60 text-3xl font-mono">
         Coming soon.....
       </div>
     </div>
