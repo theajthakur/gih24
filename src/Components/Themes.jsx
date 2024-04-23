@@ -3,7 +3,7 @@ import Heading from "../UI elements/Heading";
 
 export default function Themes() {
   const items = [
-    { id: 1, imgSrc: "/images/blockchain.png", title: "Blockchain/Web3" },
+    { id: 1, imgSrc: "/images/blockchain.png", title: "Blockchain/ Web3" },
     { id: 2, imgSrc: "/images/blockchain.png", title: "Open Innovation" },
     { id: 3, imgSrc: "/images/blockchain.png", title: "Ar/Vr" },
     { id: 4, imgSrc: "/images/blockchain.png", title: "Robotics" },
@@ -30,7 +30,7 @@ export default function Themes() {
                 className="object-contain w-full h-20 lg:h-24 drop-shadow-lg"
               />
             </div>
-            <p className="font-mono text-lg font-medium text-center text-lightest_slate">
+            <p className="font-mono text-lg font-medium text-center text-lightest_slate p-2 ">
               {item.title}
             </p>
           </div>

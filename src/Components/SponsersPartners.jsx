@@ -42,7 +42,7 @@ const SponsersPartners = () => {
         <div className="font-mono text-xl md:text-3xl">
           Looking for Sponsors and Partners
         </div>
-        <Button title="Become Sponsor/Partners" />
+        <Button title="Become Sponsor/ Partners" />
       </div>
     </div>
   );
