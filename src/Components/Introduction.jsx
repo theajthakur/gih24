@@ -14,7 +14,7 @@ const Introduction = () => {
         <div className="font-mono text-primary text-2xl">
           Embrace the challenge
         </div>
-        <div className=" font-[700] md:text-[70px] text-[30px] font-sans text-lightest_slate mb-8">
+        <div className=" font-[700] md:text-[70px] text-[40px] font-sans text-lightest_slate mb-8">
           <p>Galgotias International Hackathon!</p>
           <p className="md:text-[30px] text-[20px] text-slate">Hack n' Innovate</p>
         </div>

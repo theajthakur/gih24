@@ -8,9 +8,8 @@ import gihImage from "../Assets/Images/gih.png";
 
 const Navbar = () => {
   const controls = useAnimation();
-
-  const [toggleMenu, settoggleMenu] = useState(false);
-  const [prevScroll, setprevScroll] = useState(0);
+  const [toggleMenu, setToggleMenu] = useState(false);
+  const [prevScroll, setPrevScroll] = useState(0);
 
   useEffect(() => {
     const html = document.querySelector("html");
@@ -29,7 +28,7 @@ const Navbar = () => {
     } else {
       controls.start({ opacity: 0 });
     }
-    setprevScroll(currentScroll);
+    setPrevScroll(currentScroll);
   };
 
   useEffect(() => {
@@ -39,6 +38,7 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [prevScroll]);
+
   const menuItems = [
     { id: "01", name: "Intro", to: "intro" },
     { id: "02", name: "Prizes", to: "prizes" },
@@ -47,19 +47,20 @@ const Navbar = () => {
     { id: "05", name: "Judges", to: "judges" },
     { id: "06", name: "Team", to: "team" },
     { id: "07", name: "FAQ", to: "faq" },
-    { id: "08", name: "Guidelines", to: "contact" },
+    { id: "08", name: "Guidelines", to: "guidelines" },
   ];
 
   return (
     <>
-      <div className="flex items-center justify-center ">
+      <div className="flex items-center justify-center">
         <motion.div
           animate={controls}
           transition={{ duration: 0.3 }}
-          className={`hidden md:flex font-mono justify-between gap-10 text-base items-center fixed  p-10 pt-16 h-16 w-full -mt-2 z-50 glassmorphism ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
+          className={`hidden md:flex font-mono justify-between text-base items-center fixed p-10 pt-16 h-16 w-full -mt-2 z-50 glassmorphism ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
             } duration-1000`}
         >
-          <div className="text-base text-primary hover:cursor-pointer hover:text-white">
+          {/* Logo */}
+          <div className=" text-primary hover:cursor-pointer hover:text-white">
             <Link
               to="introduction"
               spy={true}
@@ -70,15 +71,15 @@ const Navbar = () => {
             >
               <img
                 src={gihImage}
-                alt="gihImage"
-                className=" opacity-100  max-h-[300px] duration-300 gradientScale glassmorphism h-20"
+                alt="GIH Logo"
+                className="opacity-100 max-h-[300px] duration-300 gradientScale glassmorphism h-20"
               />
-              {/* <div>GIH</div> */}
             </Link>
           </div>
 
+          {/* Desktop Menu */}
           <div>
-            <ul className="flex items-center gap-8 text-xl ">
+            <ul className="flex items-center gap-8 lg:text-xl md:text-md">
               {menuItems.map((item) => (
                 <motion.li
                   key={item.id}
@@ -87,19 +88,31 @@ const Navbar = () => {
                   transition={{ duration: 0.1 }}
                   className="flex gap-1 hover:text-primary hover:cursor-pointer"
                 >
-                  <Link
-                    to={item.to}
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    offset={-100}
-                  >
-                    <span className="text-primary">{item.id}.</span>
-                    <span className="capitalize">{item.name}</span>
-                  </Link>
+                  {item.to === "guidelines" ? (
+                    <a
+                      href="guidelines.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <span className="text-primary">{item.id}.</span>
+                      <span>{item.name}</span>
+                    </a>
+                  ) : (
+                    <Link
+                      to={item.to}
+                      spy={true}
+                      smooth={true}
+                      duration={500}
+                      offset={-100}
+                    >
+                      <span className="text-primary">{item.id}.</span>
+                      <span className="capitalize">{item.name}</span>
+                    </Link>
+                  )}
                 </motion.li>
               ))}
-              <a href="ShriyamResume.pdf" target="_blank">
+              {/* Register Button */}
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -111,18 +124,18 @@ const Navbar = () => {
               </a>
             </ul>
           </div>
-
-
         </motion.div>
       </div>
 
-      <div className="flex items-center justify-center w-full ">
+      {/* Mobile Menu */}
+      <div className="flex items-center justify-center w-full">
         <motion.div
           animate={controls}
           transition={{ duration: 0.3 }}
-          className={`flex md:hidden font-mono justify-between text-base gap-8 fixed bg- px-10 py-2 h-16 w-full -mt-2 z-50 glassmorphism  ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
+          className={`flex md:hidden font-mono justify-between text-base gap-8 fixed bg- px-10 py-2 h-16 w-full -mt-2 z-50 glassmorphism ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
             } duration-1000 `}
         >
+          {/* Mobile Logo */}
           <div className="text-base text-white hover:cursor-pointer hover:bg-primary-white">
             <Link
               to="introduction"
@@ -130,17 +143,18 @@ const Navbar = () => {
               smooth={true}
               duration={500}
               offset={-100}
-              className="flex justify-center items-center gap-3 text-sm "
+              className="flex justify-center items-center gap-3 text-sm"
             >
               <img
                 src={gihImage}
-                alt="gihImage"
-                className=" opacity-100  max-h-[300px] duration-300 gradientScale glassmorphism h-12"
+                alt="GIH Logo"
+                className="opacity-100 max-h-[300px] duration-300 gradientScale glassmorphism h-12"
               />
               <div>GIH</div>
             </Link>
           </div>
 
+          {/* Mobile Menu Icon */}
           {toggleMenu ? (
             <motion.div
               animate={{ x: -20 }}
@@ -150,49 +164,56 @@ const Navbar = () => {
               <IoClose
                 className="absolute top-10 text-4xl mr-[50px] text-primary hover:text-off_white self-end"
                 onClick={() => {
-                  settoggleMenu((prev) => !prev);
+                  setToggleMenu((prev) => !prev);
                 }}
               />
-
-              <ul className="flex flex-col items-center justify-center w-full h-full ">
-
+              <ul className="flex flex-col items-center justify-center w-full h-full">
                 {menuItems.map((item) => (
                   <motion.li
                     key={item.id}
                     initial={{ y: -10, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.1 }}
-                    className="h-[8%] w-full  items-center justify-center flex gap-1 hover:text-primary hover:cursor-pointer"
+                    className="h-[8%] w-full items-center justify-center flex gap-1 hover:text-primary hover:cursor-pointer"
                   >
-                    <Link
-                      to={item.to}
-                      spy={true}
-                      smooth={true}
-                      duration={500}
-                      offset={-100}
-                      onClick={(prev) => {
-                        settoggleMenu(!prev);
-                      }}
-                    >
-                      <span className="text-primary">{item.id}.</span>
-                      <span>{item.name}</span>
-                    </Link>
+                    {item.to === "guidelines" ? (
+                      <a
+                        href="guidelines.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <span className="text-primary">{item.id}.</span>
+                        <span>{item.name}</span>
+                      </a>
+                    ) : (
+                      <Link
+                        to={item.to}
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                        offset={-100}
+                        onClick={() => {
+                          setToggleMenu(false);
+                        }}
+                      >
+                        <span className="text-primary">{item.id}.</span>
+                        <span>{item.name}</span>
+                      </Link>
+                    )}
                   </motion.li>
-
                 ))}
-                <li className=" h-[15%] w-full items-center justify-center flex gap-1  hover:cursor-pointer">
-                  <div>
-                    <Button title="Register" />
-                  </div>
+                {/* Register Button */}
+                <li className="h-[15%] w-full items-center justify-center flex gap-1 hover:cursor-pointer">
+                  <Button title="Register" />
                 </li>
               </ul>
             </motion.div>
           ) : (
             <>
               <FiMenu
-                className={`text-3xl text-primary hover:text-off_white`}
+                className="text-3xl text-primary hover:text-off_white"
                 onClick={() => {
-                  settoggleMenu((prev) => !prev);
+                  setToggleMenu((prev) => !prev);
                 }}
               />
             </>
