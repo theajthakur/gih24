@@ -33,7 +33,7 @@ export default function Themes() {
                 className="object-contain w-full h-32 lg:h-44 drop-shadow-lg"
               />
             </div>
-            <p className="font-mono text-xl font-bold text-center text-lightest_slate p-2 ">
+            <p className="font-mono text-lg lg:text-xl font-bold text-center text-lightest_slate p-2 ">
               {item.title}
             </p>
           </div>
