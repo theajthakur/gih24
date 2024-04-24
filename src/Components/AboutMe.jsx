@@ -7,10 +7,10 @@ import laptopImage from "../Assets/Images/laptopimage.png";
 export const AboutMe = () => {
   const [isHovered, setisHovered] = useState(false);
   return (
-    <div className=" text-lightest_slate md:text-[30px] text-[20px] mt-10 glassmorphism" id="intro">
+    <div className=" text-lightest_slate md:text-[30px] text-[20px] mt-10" id="intro">
       <Heading index={"01"} title={"What is GIH ?"} />
-      <div className="flex flex-col items-center gap-12 mt-8 lg:flex-row">
-        <div className=" max-w-[720px]">
+      <div className="flex flex-col items-center gap-12 mt-8 lg:flex-row ">
+        <div className=" max-w-[720px] glassmorphism">
           <p>
             The biggest coding extravaganza in
             <span className="text-primary"> Delhi-NCR </span> is here! ⚡ Join our
