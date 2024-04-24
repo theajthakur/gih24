@@ -30,7 +30,7 @@ export default function Themes() {
             <div>
               <img
                 src={item.imgSrc}
-                className="object-contain w-full h-20 lg:h-44 drop-shadow-lg"
+                className="object-contain w-full h-32 lg:h-44 drop-shadow-lg"
               />
             </div>
             <p className="font-mono text-xl font-bold text-center text-lightest_slate p-2 ">

@@ -12,7 +12,7 @@ const LeftSidebar = () => {
         <a href='tel:+918700738711' target='_blank' rel="noreferrer"><FaDiscord className='  hover:text-primary cursor-pointer duration-200' /></a>
         <a href='https://www.linkedin.com/company/galgotias-international-hackathon/' target='_blank' rel="noreferrer"><FiLinkedin className='  hover:text-primary cursor-pointer duration-200' /></a>
         <a href='https://x.com/gcet_council' target='_blank' rel="noreferrer"><FaXTwitter className='  hover:text-primary cursor-pointer duration-200' /></a>
-        <a href='https://wa.me/8700738711' target='_blank' rel="noreferrer"><FaWhatsapp className='  hover:text-primary cursor-pointer duration-200' /></a>
+        <a href='https://chat.whatsapp.com/C7092WXiZNC4200dqEL6fQ' target='_blank' rel="noreferrer"><FaWhatsapp className='  hover:text-primary cursor-pointer duration-200' /></a>
         <a href='https://instagram.com/galgotias_hackathon' target='_blank' rel="noreferrer"><FaInstagram className='  hover:text-primary cursor-pointer duration-200' /></a>
       </div>
       <div className='h-[130px] bg-lightest_slate w-[1px] mt-8'>

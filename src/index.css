@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  background-color: rgb(20, 11, 20);
+}
 body {
-  margin:40px;
+  /* margin:40px; */
+  padding:40px;
   /*
   * Created with https://www.css-gradient.com
   * Gradient link: https://www.css-gradient.com/?c1=020102&c2=220b1b&gt=r&gd=dtl
