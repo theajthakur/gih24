@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#DC6ABA",
+        // primary: "#1baae4",
         primaryLight: "#e6f1ff",
         slate: "#e6f1ff",
         lightest_slate: "#e6f1ff",
@@ -15,6 +16,9 @@ module.exports = {
       },
       fontFamily: {
         mono: ["SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "monospace"],
+      },
+      screens: {
+        sb: "1320px",
       },
     },
   },

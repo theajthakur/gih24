@@ -7,14 +7,14 @@ import gihImage from "../Assets/Images/gih.png";
 const Introduction = () => {
   return (
     <div
-      className="pt-10 flex flex-col lg:flex-row justify-center items-center gap-10 min-h-screen "
+      className="pt-15 px-10 flex flex-col lg:flex-row justify-center items-center min-h-screen "
       id="introduction"
     >
       <div className="flex flex-col justify-center glassmorphism ">
-        <div className="font-mono text-primary text-xl">
+        <div className="font-mono text-primary text-lg">
           Embrace the challenge
         </div>
-        <div className=" font-[700] md:text-[65px] text-[40px] font-sans text-lightest_slate mb-8">
+        <div className=" font-[700] md:text-[60px] text-[40px] font-sans text-lightest_slate mb-4">
           <p>Galgotias International Hackathon!</p>
           <p className="md:text-[24px] 2xl:text-[28px] text-[20px] text-slate">Hack n' Innovate</p>
         </div>

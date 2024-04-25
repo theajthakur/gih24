@@ -25,7 +25,7 @@ export default function Themes() {
         {items.map((item) => (
           <div
             key={item.id}
-            className="flex flex-col items-center justify-center w-full gap-3 glassmorphism  m-4 overflow-hidden transition-all duration-700 border border-transparent rounded-md cursor-default select-none hover:scale-105 glassmorphism h-52 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 hover:border-primary"
+            className="py-32 flex flex-col items-center justify-center w-full gap-3 glassmorphism  m-4 overflow-hidden transition-all duration-700 border border-transparent rounded-md cursor-default select-none hover:scale-105 glassmorphism h-52 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 hover:border-primary"
           >
             <div>
               <img
@@ -33,7 +33,7 @@ export default function Themes() {
                 className="object-contain w-full h-32 lg:h-44 drop-shadow-lg"
               />
             </div>
-            <p className="font-mono text-lg lg:text-xl font-bold text-center text-lightest_slate p-2 ">
+            <p className="font-mono text-lg lg:text-xl font-bold text-center text-lightest_slate ">
               {item.title}
             </p>
           </div>
