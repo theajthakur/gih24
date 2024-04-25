@@ -20,7 +20,7 @@ import OrgTeam from "./Components/OrgTeam";
 
 function App() {
   return (
-    <div className="custom-scrollbar">
+    <div className="custom-scrollbar scale-0.5">
       <ParticlesComponent />
       <Navbar />
       <LeftSidebar />
