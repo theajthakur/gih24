@@ -56,7 +56,7 @@ const Navbar = () => {
         <motion.div
           animate={controls}
           transition={{ duration: 0.3 }}
-          className={`hidden md:flex font-mono justify-between text-base items-center fixed p-10 pt-16 h-16 w-full -mt-2 z-50 glassmorphism ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
+          className={`hidden lg:flex font-mono justify-between text-base items-center fixed p-10 pt-16 h-16 w-full -mt-2 z-50 glassmorphism ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
             } duration-1000`}
         >
           {/* Logo */}
