@@ -132,7 +132,7 @@ const Navbar = () => {
         <motion.div
           animate={controls}
           transition={{ duration: 0.3 }}
-          className={`flex md:hidden font-mono justify-between text-base gap-8 fixed bg- px-10 py-2 h-16 w-full -mt-2 z-50 glassmorphism ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
+          className={`flex lg:hidden font-mono justify-between text-base gap-8 fixed bg- px-10 py-2 h-16 w-full -mt-2 z-50 glassmorphism ${window.pageYOffset < 100 ? null : "drop-shadow-2xl"
             } duration-1000 `}
         >
           {/* Mobile Logo */}
