@@ -11,15 +11,15 @@ const Introduction = () => {
       id="introduction"
     >
       <div className="flex flex-col justify-center glassmorphism ">
-        <div className="font-mono text-primary text-2xl">
+        <div className="font-mono text-primary text-xl">
           Embrace the challenge
         </div>
-        <div className=" font-[700] md:text-[70px] text-[40px] font-sans text-lightest_slate mb-8">
+        <div className=" font-[700] md:text-[65px] text-[40px] font-sans text-lightest_slate mb-8">
           <p>Galgotias International Hackathon!</p>
-          <p className="md:text-[30px] text-[20px] text-slate">Hack n' Innovate</p>
+          <p className="md:text-[24px] 2xl:text-[28px] text-[20px] text-slate">Hack n' Innovate</p>
         </div>
         <div className="flex lg:flex-row flex-col gap-24 justify-center items-center">
-          <div className=" md:text-[30px] text-[20px] text-lightest_slate max-w-[720px]">
+          <div className=" md:text-[24px] 2xl:text-[28px] text-[20px] text-lightest_slate max-w-[720px]">
             Take on the challenge, Unleash your creativity for
             <span className="text-primary"> 36 hours</span> of non-stop innovation! Get ready to join hundreds of student innovators from across the world on
             <span className="text-primary"> May 11-12 </span>
