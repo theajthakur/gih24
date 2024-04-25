@@ -79,7 +79,7 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div>
-            <ul className="flex items-center gap-8 lg:text-xl md:text-md">
+            <ul className="flex items-center gap-8 2xl:text-xl md:text-md">
               {menuItems.map((item) => (
                 <motion.li
                   key={item.id}
