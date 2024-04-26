@@ -12,10 +12,10 @@ const Introduction = () => {
       id="introduction"
     >
       <div className="flex flex-col justify-center glassmorphism ">
-        <div className="font-mono text-primary text-lg">
+        <div className="font-mono text-primary text-lg mt-14">
           Embrace the challenge
         </div>
-        <div className=" font-[700] md:text-[60px] text-[40px] font-sans text-lightest_slate mb-4">
+        <div className=" font-[700] md:text-[60px] text-[40px] font-sans text-lightest_slate">
           <p>Galgotias International Hackathon!</p>
           <p className="md:text-[24px] 2xl:text-[28px] text-[20px] text-slate">Hack n' Innovate</p>
         </div>
