@@ -21,8 +21,8 @@ const CommunityPartners = () => {
     >
       <Heading title={"Community Partners"} />
 
-      <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3">
-        {/* {items.map((item) => (
+      {/* <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3"> */}
+      {/* {items.map((item) => (
                     <div
                         key={item.id}
                         className="flex flex-col items-center justify-center w-full gap-3 p-6 overflow-hidden transition-all duration-700 border border-transparent rounded-full cursor-pointer select-none hover:scale-105 bg-neutral-700 h-52 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 hover:border-primary"
@@ -39,13 +39,15 @@ const CommunityPartners = () => {
                     </div>
                 ))} */}
 
-        <div className="font-mono text-xl  md:text-3xl">
+      <div className="flex flex-col gap-5 mt-5 items-center my-5">
+        <div className="font-mono text-md md:text-3xl w-full text-center">
           Looking for Community Partners
         </div>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScfPNIx4An6uY9VSWdHkCsF3P9n5hYT08nd_6OdfsAJPNoObg/viewform" target="_blank">
-          <Button title="Become Community Partner" />
+          <Button title="Become Community Partner" styles={'text-sm'} />
         </a>
       </div>
+      {/* </div> */}
     </div>
   );
 };

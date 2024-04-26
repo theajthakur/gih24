@@ -21,8 +21,8 @@ const SpeakerJudges = () => {
     >
       <Heading index={"05"} title={"Speaker and Judges"} />
 
-      <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3">
-        {/* {items.map((item) => (
+      {/* <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3"> */}
+      {/* {items.map((item) => (
                     <div
                         key={item.id}
                         className="flex flex-col items-center justify-center w-full gap-3 p-6 overflow-hidden transition-all duration-700 border border-transparent rounded-full cursor-pointer select-none hover:scale-105 bg-neutral-700 h-52 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 hover:border-primary"
@@ -39,11 +39,14 @@ const SpeakerJudges = () => {
                     </div>
                 ))} */}
 
-        <div className="flex items-center justify-center w-full rounded-md glassmorphism h-60 text-3xl font-mono">
+      {/* <div className="flex items-center justify-center w-full rounded-md glassmorphism h-60 text-3xl font-mono">
           Coming Soon.....
-        </div>
-      </div>
+        </div> */}
+      <a href="/images/judges.jpg" target="_blank" className="mt-10">
+        <img src="/images/judges.jpg" alt="judges" />
+      </a>
     </div>
+    // </div>
   );
 };
 

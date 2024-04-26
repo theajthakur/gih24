@@ -1,18 +1,22 @@
 import React from "react";
 import Heading from "../UI elements/Heading";
 import Button from "../UI elements/Button";
+import '../sliding.css'
+import Slider from "./Slider";
 
 const SponsersPartners = () => {
-  const items = [
-    { id: 1, imgSrc: "/images/blockchain.png", title: "Blockchain/Web3" },
-    { id: 2, imgSrc: "/images/blockchain.png", title: "Open Innovation" },
-    { id: 3, imgSrc: "/images/blockchain.png", title: "Ar/Vr" },
-    { id: 4, imgSrc: "/images/blockchain.png", title: "Robotics" },
-    { id: 5, imgSrc: "/images/blockchain.png", title: "Blockchaing" },
-    { id: 6, imgSrc: "/images/blockchain.png", title: "Security" },
-    { id: 7, imgSrc: "/images/blockchain.png", title: "Web" },
-    { id: 8, imgSrc: "/images/blockchain.png", title: "IOT" },
-    { id: 9, imgSrc: "/images/blockchain.png", title: "Ai/Ml" },
+  const slides = [
+    { source: "/images/Sponsers/ae.jpg" },
+    { source: "/images/Sponsers/aw.jpg" },
+    { source: "/images/Sponsers/byjus.png" },
+    { source: "/images/Sponsers/cn.jpg" },
+    { source: "/images/Sponsers/ee.png" },
+    { source: "/images/Sponsers/idp.jpg" },
+    { source: "/images/Sponsers/ieee.png" },
+    { source: "/images/Sponsers/nis.jpg" },
+    { source: "/images/Sponsers/pw.jpg" },
+    { source: "/images/Sponsers/rb.jpg" },
+    { source: "/images/Sponsers/w.jpg" },
   ];
   return (
     <div
@@ -20,9 +24,22 @@ const SponsersPartners = () => {
       id="sponsors"
     >
       <Heading index={"04"} title={"Sponsors and Partners"} />
+      {/* <div className="slider">
+        <div className="slide-track">
+          <img src="/images/Sponsers/images.png" className="slide" />
+          <img src="/images/Sponsers/images.png" className="slide" />
+        </div>
+      </div> */}
 
-      <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3">
-        {/* {items.map((item) => (
+      <div className="font-mono text-md md:text-2xl mt-8 text-center">
+        Past Sponsers and Partners
+      </div>
+      <Slider slides={slides} />
+
+
+
+      {/* <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3"> */}
+      {/* {items.map((item) => (
                     <div
                         key={item.id}
                         className="flex flex-col items-center justify-center w-full gap-3 p-6 overflow-hidden transition-all duration-700 border border-transparent rounded-md cursor-pointer select-none hover:scale-105 bg-neutral-700 h-52 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 hover:border-primary"
@@ -39,13 +56,15 @@ const SponsersPartners = () => {
                     </div>
                 ))} */}
 
-        <div className="font-mono text-xl md:text-3xl">
+
+      <div className="flex flex-col gap-5 mt-5 items-center text-center">
+        <div className="font-mono text-md md:text-3xl w-full">
           Looking for Sponsors and Partners
         </div>
-        <a href="https://forms.gle/JXfT49HFqTMb63dW8" target="_blank"><Button title="Become Sponsor/ Partners" /></a>
-
+        <a href="https://forms.gle/JXfT49HFqTMb63dW8" target="_blank"><Button title="Become Sponsor/ Partners" styles={'text-sm'} /></a>
       </div>
     </div>
+    // </div>
   );
 };
 

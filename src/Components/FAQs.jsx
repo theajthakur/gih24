@@ -56,7 +56,7 @@ export default function FAQs() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
               </svg>
             </summary>
-            <p className="px-4 mt-4 leading-relaxed text-off_white text-2xl glassmorphism">{faq.answer}</p>
+            <p className="px-4 mt-4 leading-relaxed text-off_white sm:text-2xl text-lg glassmorphism">{faq.answer}</p>
           </details>
         ))}
       </div>

@@ -7,7 +7,7 @@ export default function Schedule() {
       <Heading title={"Schedule"} />
       <p className="text-lightest_slate">
       </p>
-      <div className="flex items-center justify-center w-full rounded-md glassmorphism h-60 text-3xl font-mono">
+      <div className="flex items-center justify-center w-full rounded-md glassmorphism h-60 text-3xl font-mono text-center">
         Coming Soon.....
       </div>
     </div>

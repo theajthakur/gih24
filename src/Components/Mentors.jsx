@@ -21,8 +21,8 @@ const Mentors = () => {
     >
       <Heading title={"Mentor"} />
 
-      <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3">
-        {/* {items.map((item) => (
+      {/* <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3"> */}
+      {/* {items.map((item) => (
                     <div
                         key={item.id}
                         className="flex flex-col items-center justify-center w-full gap-3 p-6 overflow-hidden transition-all duration-700 border border-transparent rounded-full cursor-pointer select-none hover:scale-105 bg-neutral-700 h-52 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 hover:border-primary"
@@ -39,11 +39,11 @@ const Mentors = () => {
                     </div>
                 ))} */}
 
-        <div className="flex items-center justify-center w-full rounded-md glassmorphism h-60 text-3xl font-mono">
-          Coming Soon.....
-        </div>
+      <div className="flex items-center justify-center w-full rounded-md glassmorphism h-60 text-3xl font-mono">
+        Coming Soon.....
       </div>
     </div>
+    // </div>
   );
 };
 
