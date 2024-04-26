@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root{
-  background-color: rgb(20, 11, 20);
+  /* background-color: rgb(20, 11, 20); */
+  background-color: rgb(4, 15, 28);
 }
 body {
   /* margin:40px; */
@@ -12,10 +13,10 @@ body {
   * Created with https://www.css-gradient.com
   * Gradient link: https://www.css-gradient.com/?c1=020102&c2=220b1b&gt=r&gd=dtl
   */
-  background: rgb(20, 11, 20);
-  background: radial-gradient(at left top, rgb(12, 7, 12), rgb(29, 9, 23));
-  /* background: #010101;
-  background: radial-gradient(at left top, #010101, #12324A); */
+  /* background: rgb(20, 11, 20);
+  background: radial-gradient(at left top, rgb(12, 7, 12), rgb(29, 9, 23)); */
+  background: #010101;
+  background: radial-gradient(at left top, #010101, #12324A);
 
   color: aliceblue;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -34,8 +35,11 @@ code {
   writing-mode: vertical-rl;
 }
 
-.btn_hover_shadow {
+/* .btn_hover_shadow {
   @apply shadow-[3px_3px_#DC6ABA];
+} */
+.btn_hover_shadow {
+  @apply shadow-[3px_3px_#1baae4];
 }
 
   ::-webkit-scrollbar {
@@ -43,7 +47,8 @@ code {
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: #DC6ABA;
+    /* background-color: #DC6ABA; */
+    background-color: #1baae4;
     border-radius: 6px;
   }
 
@@ -51,7 +56,20 @@ code {
     @apply bg-opacity-70 backdrop-blur-lg
   }
 
-  .gradientColor {
+  /* .gradientColor {
     background: rgba(2, 1, 2, 1.0);
     background: radial-gradient(at left top, rgba(2, 1, 2, 1.0), rgba(34, 11, 27, 1.0));
+  } */
+
+  .gradientColor {
+    background: #010101;
+    background: radial-gradient(at left top, #010101, #12324A);
   }
+
+  /* primary
+  .gradientColor
+  root
+  background + .gradient
+  btn hover
+  scroll bar */
+
