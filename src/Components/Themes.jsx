@@ -21,11 +21,11 @@ export default function Themes() {
     >
       <Heading index={"03"} title={"Our Themes"} />
 
-      <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3">
+      <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-items-center place-self-center center lg:grid-cols-3">
         {items.map((item) => (
           <div
             key={item.id}
-            className="py-32 flex flex-col items-center justify-center w-full gap-3 glassmorphism  m-4 overflow-hidden transition-all duration-700 border border-transparent rounded-md cursor-default select-none hover:scale-105 glassmorphism h-52 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 hover:border-primary"
+            className="sm:py-32 flex flex-col items-center justify-center w-full gap-3 glassmorphism  m-4 overflow-hidden transition-all duration-700 border border-transparent rounded-md cursor-default select-none hover:scale-105 glassmorphism h-52 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 hover:border-primary"
           >
             <div>
               <img
