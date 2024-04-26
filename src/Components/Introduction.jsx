@@ -24,8 +24,7 @@ const Introduction = () => {
             Take on the challenge, Unleash your creativity for
             <span className="text-primary"> 36 hours</span> of non-stop innovation! Get ready to join hundreds of student innovators from across the world on
             <span className="text-primary"> May 11-12 </span>
-            for an exhilarating hackathon experience. Build cutting-edge projects, learn from
-            <span className="text-primary"> industry experts</span>, and connect with
+            for an exhilarating hackathon experience. Build cutting-edge projects, learn and connect with
             <span className="text-primary"> industry experts</span>.
             Are you ready to make your mark?
           </div>

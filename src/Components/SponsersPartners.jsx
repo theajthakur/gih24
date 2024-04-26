@@ -32,7 +32,7 @@ const SponsersPartners = () => {
       </div> */}
 
       <div className="font-mono text-md md:text-2xl mt-8 text-center">
-        Past Sponsers and Partners
+        Past Sponsors and Partners
       </div>
       <Slider slides={slides} />
 

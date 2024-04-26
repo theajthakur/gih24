@@ -22,13 +22,13 @@ export default function CarouselComp() {
           <img src="/images/carousel4.jpg" className="rounded-md" />
         </div>
         <div className="rounded-md">
-          <img src="/images/carousel2.jpg" className="rounded-md" />
+          <img src="/images/carousel3.jpg" className="rounded-md" />
         </div>
         <div className="rounded-md">
           <img src="/images/carousel1.jpg" className="rounded-md" />
         </div>
         <div className="rounded-md">
-          <img src="/images/carousel3.jpg" className="rounded-md" />
+          <img src="/images/carousel2.jpg" className="rounded-md" />
         </div>
       </Carousel>
     </div>
