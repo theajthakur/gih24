@@ -18,7 +18,7 @@ const Slider = ({ slides }) => {
                     x: ['0%', '-400%'],
                     transition: {
                         ease: 'linear',
-                        duration: 5, // Adjust the duration here (in seconds)
+                        duration: 26, // Adjust the duration here (in seconds)
                         repeat: Infinity,
                     }
                 }}
