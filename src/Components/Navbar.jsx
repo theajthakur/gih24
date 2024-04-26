@@ -60,14 +60,14 @@ const Navbar = () => {
             } duration-1000`}
         >
           {/* Logo */}
-          <div className=" text-primary hover:cursor-pointer hover:text-white">
+          <div className=" text-primary hover:cursor-pointer hover:text-off_white">
             <Link
               to="introduction"
               spy={true}
               smooth={true}
               duration={500}
               offset={-100}
-              className="flex justify-center items-center gap-3 text-xl text-white"
+              className="flex justify-center items-center gap-3 text-xl text-off_white"
             >
               <img
                 src={gihImage}
@@ -136,7 +136,7 @@ const Navbar = () => {
             } duration-1000 `}
         >
           {/* Mobile Logo */}
-          <div className="text-base text-white hover:cursor-pointer hover:bg-primary-white">
+          <div className="text-base text-off_white hover:cursor-pointer hover:bg-primary-white">
             <Link
               to="introduction"
               spy={true}

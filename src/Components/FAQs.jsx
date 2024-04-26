@@ -44,7 +44,7 @@ export default function FAQs() {
       <div className="my-6 space-y-4">
         {faqsData.map((faq, index) => (
           <details key={index} className="group [&_summary::-webkit-details-marker]:hidden">
-            <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg text-white p-2 glassmorphism font-mono text-2xl ">
+            <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg text-off_white p-2 glassmorphism font-mono text-2xl ">
               <h2 className="font-medium text-[20px] md:text-[30px] m-3">{faq.question}</h2>
               <svg
                 className="w-5 h-5 transition duration-300 shrink-0 group-open:-rotate-180"
@@ -56,7 +56,7 @@ export default function FAQs() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
               </svg>
             </summary>
-            <p className="px-4 mt-4 leading-relaxed text-white text-lg glassmorphism">{faq.answer}</p>
+            <p className="px-4 mt-4 leading-relaxed text-off_white text-2xl glassmorphism">{faq.answer}</p>
           </details>
         ))}
       </div>
