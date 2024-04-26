@@ -1,0 +1,44 @@
+{
+  "themes": {
+    "blue": {
+      "root": "",
+      "background": "background: 'rgb(0, 0, 255)';",
+      "gradient": "background: radial-gradient(at left top, rgb(0, 0, 150), rgb(0, 0, 255));",
+      "btnHoverShadow": ".btn_hover_shadow { shadow-[3px_3px_#0000DC]; }",
+      "logo": "gihDark",
+      "scrollColor": "::-webkit-scrollbar-thumb { background-color: #0000DC; border-radius: 6px; }"
+    },
+    "yellow": {
+      "root": "",
+      "background": "background: 'rgb(255, 255, 0)';",
+      "gradient": "background: radial-gradient(at left top, rgb(255, 255, 0), rgb(255, 200, 0));",
+      "btnHoverShadow": ".btn_hover_shadow { shadow-[3px_3px_#CCCC00]; }",
+      "logo": "gihDark",
+      "scrollColor": "::-webkit-scrollbar-thumb { background-color: #CCCC00; border-radius: 6px; }"
+    },
+    "pink": {
+      "root": "background-color: 'rgb(20, 11, 20)';",
+      "background": "'rgb(255, 192, 203)'",
+      "gradient": "background: radial-gradient(at left top, rgb(255, 182, 193), rgb(255, 192, 203));",
+      "btnHoverShadow": ".btn_hover_shadow { shadow-[3px_3px_#DC6ABA]; }",
+      "logo": "gihDark",
+      "scrollColor": "::-webkit-scrollbar-thumb { background-color: #DC6ABA; border-radius: 6px; }"
+    },
+    "red": {
+      "root": "",
+      "background": "'rgb(255, 0, 0)';",
+      "gradient": "background: radial-gradient(at left top, rgb(150, 0, 0), rgb(255, 0, 0));",
+      "btnHoverShadow": ".btn_hover_shadow { shadow-[3px_3px_#800000]; }",
+      "logo": "gihDark",
+      "scrollColor": "::-webkit-scrollbar-thumb { background-color: #800000; border-radius: 6px; }"
+    },
+    "white": {
+      "root": "",
+      "background": "background: 'rgb(255, 255, 255)';",
+      "gradient": "",
+      "btnHoverShadow": ".btn_hover_shadow { shadow-[3px_3px_#FFFFFF]; }",
+      "logo": "gihLight",
+      "scrollColor": ""
+    }
+  }
+}
