@@ -3,13 +3,13 @@ import Heading from "../UI elements/Heading";
 
 export default function Themes() {
   const items = [
-    { id: 1, imgSrc: "/images/themeLogos/bc.png", title: "Blockchain/ Web3" },
+    { id: 1, imgSrc: "/images/themeLogos/bc.png", title: "Blockchain /Web3" },
     { id: 2, imgSrc: "/images/themeLogos/oi.png", title: "Open Innovation" },
     { id: 3, imgSrc: "/images/themeLogos/vr.png", title: "Ar/Vr" },
     { id: 4, imgSrc: "/images/themeLogos/rob.png", title: "Robotics" },
     { id: 5, imgSrc: "/images/themeLogos/wd.png", title: "Web" },
     { id: 6, imgSrc: "/images/themeLogos/iot.png", title: "IOT" },
-    { id: 7, imgSrc: "/images/themeLogos/ai.png", title: "Ai/Ml" },
+    { id: 7, imgSrc: "/images/themeLogos/ai.png", title: "AI/ML" },
     { id: 8, imgSrc: "/images/themeLogos/sec.png", title: "Security" },
     { id: 9, imgSrc: "/images/themeLogos/sc.png", title: "Smart City" },
     { id: 10, imgSrc: "/images/themeLogos/fin.png", title: "Fintech" },

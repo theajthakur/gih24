@@ -40,7 +40,7 @@ const SpeakerJudges = () => {
                 ))} */}
 
         <div className="flex items-center justify-center w-full rounded-md glassmorphism h-60 text-3xl font-mono">
-          Coming soon.....
+          Coming Soon.....
         </div>
       </div>
     </div>

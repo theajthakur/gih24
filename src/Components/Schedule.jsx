@@ -8,7 +8,7 @@ export default function Schedule() {
       <p className="text-lightest_slate">
       </p>
       <div className="flex items-center justify-center w-full rounded-md glassmorphism h-60 text-3xl font-mono">
-        Coming soon.....
+        Coming Soon.....
       </div>
     </div>
   );
