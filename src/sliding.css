@@ -1,4 +1,4 @@
-.slider {
+/* .slider {
     height: 250px;
     margin: auto;
     position: relative;
@@ -43,7 +43,7 @@
     transform: translateZ(20px);
 }
 
-/* GRADIENT SHADOWS */
+
 .slider::before,
 .slider::after {
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
@@ -63,4 +63,4 @@
     right: 0;
     top: 0;
     transform: rotateZ(180deg);
-}
+} */
