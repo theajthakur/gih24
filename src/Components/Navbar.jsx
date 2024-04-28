@@ -112,7 +112,7 @@ const Navbar = () => {
                 </motion.li>
               ))}
               {/* Register Button */}
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://unstop.com/p/galgotias-international-hackathon-galgotias-college-of-engineering-technology-gcet-greater-noida-969799" target="_blank" rel="noopener noreferrer">
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -203,9 +203,12 @@ const Navbar = () => {
                   </motion.li>
                 ))}
                 {/* Register Button */}
-                <li className="h-[15%] w-full items-center justify-center flex gap-1 hover:cursor-pointer">
-                  <Button title="Register" />
-                </li>
+                <a
+                  className="h-[8%]" href="https://unstop.com/p/galgotias-international-hackathon-galgotias-college-of-engineering-technology-gcet-greater-noida-969799" target="_blank">
+                  <li className="h-[15%] w-full items-center justify-center flex gap-1 hover:cursor-pointer">
+                    <Button title="Register" />
+                  </li>
+                </a>
               </ul>
             </motion.div>
           ) : (
