@@ -27,12 +27,92 @@ const faqsData = [
     answer: "Reach us directly at galgotiahackathon24@gmail.com. We are here to help you!",
   },
   {
-    question: "Will there be a Registration Fee?",
-    answer: "Yes, there will be a registration fee for GIH.",
-  },
-  {
     question: "Will there be swags?",
     answer: "Yes! Participants will have many chances to win GIH swags!",
+  },
+  {
+    question: "When and where will the hackathon be held?",
+    answer: "The hackathon will take place at Galgotias Campus One on May 25-26, 2024. Directions to the location are available on our website."
+  },
+  {
+    question: "Is a female candidate necessary to take part in the competition?",
+    answer: "No, participation by a female candidate is not mandatory. However, as we promote women in tech, we highly encourage their involvement in teams."
+  },
+  {
+    question: "When is the last date to submit the ppt?",
+    answer: "The deadline for submitting your ppt for the first round is May 18th."
+  },
+  {
+    question: "Will there be screening based on ppt submissions?",
+    answer: "No, there won’t be any screening based on ppt submissions. However, we highly recommend submitting the ppt as it can enhance your chances in the final competition."
+  },
+  {
+    question: "What is the template for the ppt round?",
+    answer: "Instructions for the presentation:\n1. Start with the provided first slide.\n2. Include the GIH logo on each slide.\n3. Your presentation should consist of 10 to 12 slides.\n4. You can modify the design to fit your theme but include all the headings from the template."
+  },
+  {
+    question: "Is it mandatory to have a unique idea?",
+    answer: "No, it's not mandatory, but having a unique idea increases your chances in the final round. However, the execution and unique selling point (USP) of your project are crucial."
+  },
+  {
+    question: "Will we be provided with a problem statement?",
+    answer: "No, as this is a theme-based hackathon, you can create your project on any relevant theme."
+  },
+  {
+    question: "What are the themes for the hackathon?",
+    answer: "The themes include Blockchain/Web3, Open Innovation, AR/VR, Robotics, Web, IoT, AI/ML, Security, Smart City, and Fintech."
+  },
+  {
+    question: "Is this a hardware or software-based competition?",
+    answer: "Both. You can create your project in either hardware or software."
+  },
+  {
+    question: "Are app development or SDG projects considered within the themes?",
+    answer: "They fall under the Open Innovation section."
+  },
+  {
+    question: "Can I bring a mentor with me?",
+    answer: "Information about mentors will be provided in future updates."
+  },
+  {
+    question: "Does the theme-based nature of the competition mean we can choose our project?",
+    answer: "Yes."
+  },
+  {
+    question: "Is the hackathon online or offline?",
+    answer: "The first round is online, while rounds 2 and 3 offer both online and offline participation."
+  },
+  {
+    question: "Do team members need to be together during online participation?",
+    answer: "Yes, team members must be together throughout the competition; failure to comply may lead to disqualification."
+  },
+  {
+    question: "How do we connect if participating online?",
+    answer: "A Zoom meeting link will be shared, and participants must be present throughout the competition."
+  },
+  {
+    question: "How can I ensure my ideas are not stolen during the mentorship round?",
+    answer: "A separate link will be shared for the mentorship round to prevent piracy."
+  },
+  {
+    question: "Is giving the idea enough, or do I need to write the code?",
+    answer: "You need to implement your ideas."
+  },
+  {
+    question: "Will there be a registration fee?",
+    answer: "Yes, for rounds 2 and 3."
+  },
+  {
+    question: "Is the registration fee the same for both rounds?",
+    answer: "Yes."
+  },
+  {
+    question: "Can team members be from different colleges?",
+    answer: "Yes."
+  },
+  {
+    question: "Can solo participants take part?",
+    answer: "Yes."
   },
 ];
 
