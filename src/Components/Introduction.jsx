@@ -23,7 +23,7 @@ const Introduction = () => {
           <div className=" md:text-[24px] 2xl:text-[28px] text-[20px] text-lightest_slate max-w-[720px]">
             Take on the challenge, Unleash your creativity for
             <span className="text-primary"> 36 hours</span> of non-stop innovation! Get ready to join hundreds of student innovators from across the world on
-            <span className="text-primary"> May 24-26  </span>
+            <span className="text-primary"> May 25-26  </span>
             for an exhilarating hackathon experience. Build cutting-edge projects, learn and connect with
             <span className="text-primary"> industry experts</span>.
             Are you ready to make your mark?
