@@ -9,6 +9,7 @@ import RightSidebar from "./Components/RightSidebar";
 import ParticlesComponent from "./Components/Particles";
 import Prizes from "./Components/Prizes";
 import Themes from "./Components/Themes";
+import Team from "./Components/Team";
 import Schedule from "./Components/Schedule";
 import SponsersPartners from "./Components/SponsersPartners";
 import SpeakerJudges from "./Components/SpeakerJudges";
@@ -33,6 +34,7 @@ function App() {
         <Schedule />
         <SponsersPartners />
         <SpeakerJudges />
+        <Team />
         <Mentors />
         <CommunityPartners />
         <CarouselComp />
