@@ -37,7 +37,7 @@ function App() {
         <Team />
         <Mentors />
         <CommunityPartners />
-        <CarouselComp />
+        {/* <CarouselComp /> */}
         {/* <OrgTeam /> */}
         <FAQs />
         <Contact />
