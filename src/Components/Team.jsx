@@ -3,12 +3,12 @@ import Heading from "../UI elements/Heading";
 
 export default function Team() {
   const items = [
-    { id: 1, name: "Abhishek Singh Bhati", domain: "Management", imgsrc: "/images/team/1.png" },
-    { id: 2, name: "Aaryan Pandit", domain: "Marketing", imgsrc: "/images/team/2.png" },
-    { id: 3, name: "Divyansh Pandey", domain: "Marketing", imgsrc: "/images/team/3.png" },
-    { id: 4, name: "Jayant Srivastav", domain: "Technical", imgsrc: "/images/team/4.png" },
-    { id: 5, name: "Yuvraj Singh", domain: "Technical", imgsrc: "/images/team/5.png" },
-    { id: 6, name: "Shriyam Gera", domain: "Technical", imgsrc: "/images/team/6.png" },
+    { id: 1, name: "Shriyam Gera", domain: "Technical", imgsrc: "/images/team/6.png" },
+    { id: 2, name: "Yuvraj Singh", domain: "Technical", imgsrc: "/images/team/5.png" },
+    { id: 3, name: "Jayant Srivastav", domain: "Technical", imgsrc: "/images/team/4.png" },
+    { id: 4, name: "Abhishek Singh Bhati", domain: "Management", imgsrc: "/images/team/1.png" },
+    { id: 5, name: "Aaryan Pandit", domain: "Marketing", imgsrc: "/images/team/2.png" },
+    { id: 6, name: "Divyansh Pandey", domain: "Marketing", imgsrc: "/images/team/3.png" },
     { id: 7, name: "Prajjwal Kumar", domain: "Hospitality", imgsrc: "/images/team/7.png" },
     { id: 8, name: "Mehul Tyagi", domain: "Hospitality", imgsrc: "/images/team/8.png" },
     { id: 9, name: "Shreya Singh", domain: "Hospitality", imgsrc: "/images/team/9.png" },
@@ -24,23 +24,23 @@ export default function Team() {
     { id: 19, name: "Parth Singh", domain: "Logistics", imgsrc: "/images/team/19.png" },
     { id: 20, name: "Harsh Chauhan", domain: "Logistics", imgsrc: "/images/team/20.png" }
 ];
-  
+
   return (
     <div className="flex flex-col justify-center w-full max-w-4xl my-10 glassmorphism"
-    id="team">
-<Heading index={"06"} title={"Team Leads"} />
+      id="team">
+      <Heading index={"06"} title={"Team Leads"} />
 
       <div className="font-mono text-md md:text-2xl mt-8 text-center">
       </div>      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-      {items.map((item) => (
-      <div key={item.id} className="flex flex-col justify-center m-8 text-center">
-        <img alt="" className="self-center flex-shrink-0 w-30 h-30 mb-4 bg-center bg-cover rounded-full bg-gray-500" src={item.imgsrc}/>
-          <p className="text-xl font-semibold leading-tight">{item.name}</p>
-          <p className="text-gray-400">{item.domain}</p>
+        {items.map((item) => (
+          <div key={item.id} className="flex flex-col justify-center m-8 text-center">
+            <img alt="" className="self-center flex-shrink-0 w-30 h-30 mb-4 bg-center bg-cover rounded-full bg-gray-500" src={item.imgsrc} />
+            <p className="text-xl font-semibold leading-tight">{item.name}</p>
+            <p className="text-gray-400">{item.domain}</p>
           </div>
-      ))}
+        ))}
       </div>
-      
+
     </div>
   );
 }

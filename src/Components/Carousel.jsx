@@ -18,17 +18,17 @@ export default function CarouselComp() {
         autoPlay
         emulateTouch
       >
+        {/* <div className="rounded-md">
+          <img src="/images/carousel4.jpeg" className="rounded-md" />
+        </div> */}
         <div className="rounded-md">
-          <img src="/images/carousel4.jpg" className="rounded-md" />
+          <img src="/images/carousel3.jpeg" className="rounded-md" />
         </div>
         <div className="rounded-md">
-          <img src="/images/carousel3.jpg" className="rounded-md" />
+          <img src="/images/carousel1.jpeg" className="rounded-md" />
         </div>
         <div className="rounded-md">
-          <img src="/images/carousel1.jpg" className="rounded-md" />
-        </div>
-        <div className="rounded-md">
-          <img src="/images/carousel2.jpg" className="rounded-md" />
+          <img src="/images/carousel2.jpeg" className="rounded-md" />
         </div>
       </Carousel>
     </div>
