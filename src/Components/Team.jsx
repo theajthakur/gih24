@@ -13,16 +13,17 @@ export default function Team() {
     { id: 8, name: "Mehul Tyagi", domain: "Hospitality", imgsrc: "/images/team/8.png" },
     { id: 9, name: "Shreya Singh", domain: "Hospitality", imgsrc: "/images/team/9.png" },
     { id: 10, name: "Khushi Gaur", domain: "Online promotions", imgsrc: "/images/team/10.png" },
-    { id: 11, name: "Zainab", domain: "Online promotions", imgsrc: "/images/team/11.png" },
-    { id: 12, name: "Nikhil Gautam", domain: "Registrations", imgsrc: "/images/team/12.png" },
-    { id: 13, name: "Rahul Gupta", domain: "Registrations", imgsrc: "/images/team/13.png" },
-    { id: 14, name: "Abhinav Bharadwaj", domain: "Registrations", imgsrc: "/images/team/14.png" },
+    { id: 11, name: "Smriti Gupta", domain: "Online promotions", imgsrc: "/images/team/21.png" },
+    { id: 12, name: "Zainab", domain: "Online promotions", imgsrc: "/images/team/11.png" },
+    { id: 13, name: "Nikhil Gautam", domain: "Registrations", imgsrc: "/images/team/12.png" },
+    { id: 14, name: "Rahul Gupta", domain: "Registrations", imgsrc: "/images/team/13.png" },
+    { id: 15, name: "Abhinav Bharadwaj", domain: "Registrations", imgsrc: "/images/team/14.png" },
     { id: 16, name: "Arsh Anand", domain: "Sponsorship", imgsrc: "/images/team/15.png" },
-    { id: 15, name: "Mohit Chaudhary", domain: "Sponsorship", imgsrc: "/images/team/16.png" },
-    { id: 17, name: "Utkarsh Tripathi", domain: "Media & Communication", imgsrc: "/images/team/17.png" },
-    { id: 18, name: "Aditya Srivastav", domain: "Media & Communication", imgsrc: "/images/team/18.png" },
-    { id: 19, name: "Parth Singh", domain: "Logistics", imgsrc: "/images/team/19.png" },
-    { id: 20, name: "Harsh Chauhan", domain: "Logistics", imgsrc: "/images/team/20.png" }
+    { id: 17, name: "Mohit Chaudhary", domain: "Sponsorship", imgsrc: "/images/team/16.png" },
+    { id: 18, name: "Utkarsh Tripathi", domain: "Media & Communication", imgsrc: "/images/team/17.png" },
+    { id: 19, name: "Aditya Srivastav", domain: "Media & Communication", imgsrc: "/images/team/18.png" },
+    { id: 20, name: "Parth Singh", domain: "Logistics", imgsrc: "/images/team/19.png" },
+    { id: 21, name: "Harsh Chauhan", domain: "Logistics", imgsrc: "/images/team/20.png" }
 ];
 
   return (
