@@ -20,7 +20,8 @@ const SpeakerJudges = () => {
     {"id": 14, "name": "Kumar Shivam", "designation": "Senior Backend Engineer @Delta6labs", "imgSrc": "/images/judges/14.jpg"},
     {"id": 15, "name": "Shubham Kumar", "designation": "SDE-2 @CES, Ex-BYJUS", "imgSrc": "/images/judges/15.jpg"},
     {"id": 16, "name": "Mohammad Mudassir", "designation": "Support Engineer@Algorand Foundation", "imgSrc": "/images/judges/16.jpg"},
-    {"id": 17, "name": "Maninder Singh", "designation": "", "imgSrc": "/images/judges/17.jpeg"}
+    {"id": 17, "name": "Maninder Singh", "designation": "", "imgSrc": "/images/judges/17.jpeg"},
+    {"id": 18, "name": "Abdal Lalit", "designation": "Product Analyst at BharatPe | Ex-Urban Company | Ex-Airtel Digital", "imgSrc": "/images/judges/18.jpg"}
   ];  
   return (
     <div
