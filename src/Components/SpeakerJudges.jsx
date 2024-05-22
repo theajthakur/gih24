@@ -4,8 +4,8 @@ import Button from "../UI elements/Button";
 
 const SpeakerJudges = () => {
   const items = [
-    {"id": 1, "name": "Piyush Agarwal", "designation": "Youtuber", "imgSrc": "/images/judges/1.png"},
-    {"id": 2, "name": "Rohit Negi", "designation": "Youtuber", "imgSrc": "/images/judges/2.jpeg"},
+    {"id": 1, "name": "Piyush Agarwal", "designation": "Frontend developer@Cars 24, YouTube(100k+)", "imgSrc": "/images/judges/1.png"},
+    {"id": 2, "name": "Rohit Negi", "designation": "Founder of Coder Army,Ex-Uber, YouTube(160k+)", "imgSrc": "/images/judges/2.jpeg"},
     {"id": 3, "name": "Utkarsh Bharti", "designation": "Sr. Software Engineer @Shipsy, Ex SWE at GE Healthcare, IIT Roorkee Alumni", "imgSrc": "/images/judges/3.jpg"},
     {"id": 4, "name": "Abhinav Tiwari", "designation": "SDE-3@Walmart, Founder of Loop club", "imgSrc": "/images/judges/4.jpg"},
     {"id": 5, "name": "Saumya Awasthi", "designation": "Software Engineer @Kigen, Content Creator - (LinkedIn/YouTube)", "imgSrc": "/images/judges/5.jpg"},
