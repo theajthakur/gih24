@@ -4,8 +4,8 @@ import Button from "../UI elements/Button";
 
 const SpeakerJudges = () => {
   const items = [
-    {"id": 1, "name": "Piyush Agarwal", "designation": "Youtuber", "imgSrc": "/images/judges/1.png"},
-    {"id": 2, "name": "Rohit Negi", "designation": "Youtuber", "imgSrc": "/images/judges/2.jpeg"},
+    {"id": 1, "name": "Piyush Agarwal", "designation": "Frontend developer@Cars 24, YouTube(100k+)", "imgSrc": "/images/judges/1.png"},
+    {"id": 2, "name": "Rohit Negi", "designation": "Founder of Coder Army,Ex-Uber, YouTube(160k+)", "imgSrc": "/images/judges/2.jpeg"},
     {"id": 3, "name": "Utkarsh Bharti", "designation": "Sr. Software Engineer @Shipsy, Ex SWE at GE Healthcare, IIT Roorkee Alumni", "imgSrc": "/images/judges/3.jpg"},
     {"id": 4, "name": "Abhinav Tiwari", "designation": "SDE-3@Walmart, Founder of Loop club", "imgSrc": "/images/judges/4.jpg"},
     {"id": 5, "name": "Saumya Awasthi", "designation": "Software Engineer @Kigen, Content Creator - (LinkedIn/YouTube)", "imgSrc": "/images/judges/5.jpg"},
@@ -20,7 +20,8 @@ const SpeakerJudges = () => {
     {"id": 14, "name": "Kumar Shivam", "designation": "Senior Backend Engineer @Delta6labs", "imgSrc": "/images/judges/14.jpg"},
     {"id": 15, "name": "Shubham Kumar", "designation": "SDE-2 @CES, Ex-BYJUS", "imgSrc": "/images/judges/15.jpg"},
     {"id": 16, "name": "Mohammad Mudassir", "designation": "Support Engineer@Algorand Foundation", "imgSrc": "/images/judges/16.jpg"},
-    {"id": 17, "name": "Maninder Singh", "designation": "", "imgSrc": "/images/judges/17.jpeg"}
+    {"id": 17, "name": "Maninder Singh", "designation": "", "imgSrc": "/images/judges/17.jpeg"},
+    {"id": 18, "name": "Abdal Lalit", "designation": "Product Analyst at BharatPe | Ex-Urban Company | Ex-Airtel Digital", "imgSrc": "/images/judges/18.jpg"}
   ];  
   return (
     <div
@@ -31,9 +32,9 @@ const SpeakerJudges = () => {
 
       <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3">
       {items.map((item) => (
-              <div className="text-center text-gray-500 dark:text-gray-400">
+              <div className="text-center text-gray-400 dark:text-gray-400">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full" src={item.imgSrc} alt={item.name}/>
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white">
                   <a href="#">{item.name}</a>
               </h3>
               <p>{item.designation}</p>
