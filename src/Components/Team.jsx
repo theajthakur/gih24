@@ -3,6 +3,10 @@ import Heading from "../UI elements/Heading";
 
 export default function Team() {
   const items = [
+    { id: 22, name: "Ayush Agarwal", domain: "Organizer", imgsrc: "/images/team/22.png" },
+    { id: 23, name: "Himanshu Mishra", domain: "Organizer", imgsrc: "/images/team/23.png" },
+    { id: 24, name: "Ayush Ranjan", domain: "Curators", imgsrc: "/images/team/24.png" },
+    { id: 25, name: "Shiwalik Srivastav", domain: "Curators", imgsrc: "/images/team/25.png" },
     { id: 1, name: "Shriyam Gera", domain: "Technical", imgsrc: "/images/team/6.png" },
     { id: 2, name: "Yuvraj Singh", domain: "Technical", imgsrc: "/images/team/5.png" },
     { id: 3, name: "Jayant Srivastav", domain: "Technical", imgsrc: "/images/team/4.png" },
@@ -29,7 +33,7 @@ export default function Team() {
   return (
     <div className="flex flex-col justify-center w-full max-w-4xl my-10 glassmorphism"
       id="team">
-      <Heading index={"06"} title={"Team Leads"} />
+      <Heading index={"06"} title={"Team"} />
 
       <div className="font-mono text-md md:text-2xl mt-8 text-center">
       </div>      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
