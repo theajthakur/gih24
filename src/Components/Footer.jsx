@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div className='flex gap-4 text-2xl my-10 glassmorphism md:text-4xl '>
-        <a href='tel:+918700738711' target='_blank' rel="noreferrer"><FiPhone className='  hover:text-primary cursor-pointer duration-300 ' /></a>
+        {/* <a href='tel:+918700738711' target='_blank' rel="noreferrer"><FiPhone className='  hover:text-primary cursor-pointer duration-300 ' /></a> */}
         <a href='https://discord.gg/TPJEsUxNG6' target='_blank' rel="noreferrer"><FaDiscord className='   hover:text-primary cursor-pointer duration-300' /></a>
         <a href='https://www.linkedin.com/company/galgotias-international-hackathon/' target='_blank' rel="noreferrer"><FiLinkedin className='   hover:text-primary cursor-pointer duration-300' /></a>
         <a href='https://x.com/gcet_council' target='_blank' rel="noreferrer"><FaXTwitter className='   hover:text-primary cursor-pointer duration-300' /></a>
