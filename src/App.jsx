@@ -34,10 +34,10 @@ function App() {
         <Schedule />
         <SponsersPartners />
         <SpeakerJudges />
-        {/* <Team />
-        <Mentors /> */}
+        <Team />
+        <Mentors />
         <CommunityPartners />
-        {/* <CarouselComp /> */}
+        <CarouselComp />
         {/* <OrgTeam /> */}
         <FAQs />
         <Contact />

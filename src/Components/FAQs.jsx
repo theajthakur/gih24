@@ -119,7 +119,7 @@ const faqsData = [
 export default function FAQs() {
   return (
     <div className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh] glassmorphism" id="faq">
-      <Heading index={"06"} title={"FAQ's"} />
+      <Heading index={"07"} title={"FAQ's"} />
 
       <div className="my-6 space-y-4">
         {faqsData.map((faq, index) => (
