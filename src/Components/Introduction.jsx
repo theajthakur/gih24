@@ -36,13 +36,6 @@ const Introduction = () => {
           />
           {/* {isHovered && <p className={` text-primary text-2xl font-bold bg-white w-fit p-5 ${!bulbToggle && `opacity-25`} rounded-lg`}>Turn on the bulb!</p>} */}
         </div>
-        <a
-          href="https://unstop.com/p/galgotias-international-hackathon-galgotias-college-of-engineering-technology-gcet-greater-noida-969799"
-          target="_blank"
-          className="self-center my-2"
-        >
-          <Button title="Register!" styles={'w-84 text-off_white text-[32px]'} />
-        </a>
 
       </div>
 
