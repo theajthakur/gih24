@@ -41,13 +41,13 @@ const Navbar = () => {
 
   const menuItems = [
     { id: "01", name: "Intro", to: "intro" },
-    { id: "02", name: "Prizes", to: "prizes" },
+    { id: "02", name: "Patrons", to: "prizes" },
     { id: "03", name: "Themes", to: "themes" },
     { id: "04", name: "Sponsors", to: "sponsors" },
     { id: "05", name: "Judges", to: "judges" },
-    { id: "06", name: "Team", to: "team" },
-    { id: "07", name: "FAQ", to: "faq" },
-    { id: "08", name: "Guidelines", to: "guidelines" },
+    // { id: "06", name: "Team", to: "team" },
+    { id: "06", name: "FAQ", to: "faq" },
+    { id: "07", name: "Guidelines", to: "guidelines" },
   ];
 
   return (
@@ -112,14 +112,14 @@ const Navbar = () => {
                 </motion.li>
               ))}
               {/* Register Button */}
-              <a href="https://unstop.com/p/galgotias-international-hackathon-galgotias-college-of-engineering-technology-gcet-greater-noida-969799" target="_blank" rel="noopener noreferrer">
+              <a href="#" rel="noopener noreferrer">
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.1 }}
                   className="flex gap-1 hover:cursor-pointer"
                 >
-                  <Button title="Register" className={"py-2"} />
+                  <Button title="Loading GIH25.." className={"py-2"} />
                 </motion.li>
               </a>
             </ul>
@@ -202,11 +202,11 @@ const Navbar = () => {
                     )}
                   </motion.li>
                 ))}
-                {/* Register Button */}
-                <a
-                  className="h-[8%]" href="https://unstop.com/p/galgotias-international-hackathon-galgotias-college-of-engineering-technology-gcet-greater-noida-969799" target="_blank">
+               {/* Register Button */}
+               <a
+                  className="h-[8%]" href="#" >
                   <li className="h-[15%] w-full items-center justify-center flex gap-1 hover:cursor-pointer">
-                    <Button title="Register" />
+                    <Button title="Loading GIH25.." />
                   </li>
                 </a>
               </ul>
