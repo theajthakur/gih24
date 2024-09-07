@@ -43,11 +43,12 @@ const Navbar = () => {
     { id: "01", name: "Intro", to: "intro" },
     { id: "02", name: "Patrons", to: "prizes" },
     { id: "03", name: "Themes", to: "themes" },
-    { id: "04", name: "Sponsors", to: "sponsors" },
-    { id: "05", name: "Judges", to: "judges" },
+    { id: "04", name: "Organisers", to: "organiser" },
+    { id: "05", name: "Sponsors", to: "sponsors" },
+    { id: "06", name: "Judges", to: "judges" },
     // { id: "06", name: "Team", to: "team" },
-    { id: "06", name: "FAQ", to: "faq" },
-    { id: "07", name: "Guidelines", to: "guidelines" },
+    { id: "07", name: "FAQ", to: "faq" },
+    { id: "08", name: "Guidelines", to: "guidelines" },
   ];
 
   return (

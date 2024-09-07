@@ -19,7 +19,7 @@ export default function Themes() {
       className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh] glassmorphism "
       id="themes"
     >
-      <Heading index={"03"} title={"Our Themes"} />
+      <Heading index={"04"} title={"Our Themes"} />
 
       <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-items-center place-self-center center lg:grid-cols-3">
         {items.map((item) => (

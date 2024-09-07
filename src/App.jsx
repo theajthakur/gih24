@@ -18,6 +18,7 @@ import CommunityPartners from "./Components/CommunityPartners";
 import CarouselComp from "./Components/Carousel";
 import FAQs from "./Components/FAQs";
 import OrgTeam from "./Components/OrgTeam";
+import Organiser from "./Components/Organisers";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Introduction />
         <AboutMe />
         <Prizes />
+        <Organiser/>
         <Themes />
         <Schedule />
         <SponsersPartners />

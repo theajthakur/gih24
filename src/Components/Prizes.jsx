@@ -15,13 +15,14 @@ export default function Prizes() {
               </h3>
               <p>CEO, Galgotia Educational Institutions</p>
               </div>
-              <div className="text-center text-gray-400 dark:text-gray-400">
+              {/* <div className="text-center text-gray-400 dark:text-gray-400">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="/images/d.jpeg"/>
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white">
                   <a href="#">MOHD. ASIM QADRI</a>
               </h3>
               <p>Director, GCET</p>
-              </div></div>
+              </div> */}
+              </div>
 
     </div>
   );
