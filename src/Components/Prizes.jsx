@@ -4,7 +4,7 @@ import Heading from "../UI elements/Heading";
 export default function Prizes() {
   return (
     <div
-      className="flex flex-col justify-center w-full max-w-4xl mb-2 text-off_white"
+      className="flex flex-col justify-center w-full max-w-4xl mb-5 text-off_white"
       id="prizes"
     >
       <Heading index={"02"} title={"Our Patrons"} />
