@@ -4,7 +4,7 @@ import Heading from "../UI elements/Heading";
 export default function Organiser() {
   return (
     <div
-      className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh] text-off_white"
+      className="flex flex-col justify-center w-full max-w-4xl mb-2 text-off_white"
       id="organiser"
     >
       <Heading index={"03"} title={"Our Organiser"} />
