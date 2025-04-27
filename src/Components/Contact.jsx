@@ -20,7 +20,7 @@ const Contact = () => {
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
       <a
-        href='mailto:galgotiahackathon24@gmail.com'
+        href='mailto:galgotiahackathon@gmail.com'
         target="_blank"
         rel="noreferrer"
       >

@@ -43,7 +43,7 @@ const CommunityPartners = () => {
         <div className="font-mono text-md md:text-3xl w-full text-center">
           Looking for Community Partners
         </div>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScfPNIx4An6uY9VSWdHkCsF3P9n5hYT08nd_6OdfsAJPNoObg/viewform" target="_blank">
+        <a href="https://forms.gle/xySGofehy6ygcVRt7" target="_blank">
           <Button title="Become Community Partner" styles={'text-sm'} />
         </a>
       </div>

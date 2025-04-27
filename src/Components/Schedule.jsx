@@ -3,9 +3,9 @@ import Heading from "../UI elements/Heading";
 
 export default function Schedule() {
   return (
-    <div className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh]  text-off_white">
+    <div className="flex flex-col justify-center w-full max-w-4xl min-h-[40vh]  text-off_white">
       <Heading title={"Schedule"} />
-      <p className="text-lightest_slate">
+      {/* <p className="text-lightest_slate">
       </p>
 <div class="container glassmorphism">
           <div
@@ -23,7 +23,7 @@ export default function Schedule() {
               <div
                 class="glassmorphism col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md"
               >
-                <h3 class="font-semibold text-lg mb-1">25-26 MAY</h3>
+                <h3 class="font-semibold text-lg mb-1">09-10 MAY</h3>
                 <p class="leading-tight text-justify">
                   HACKATHON ROUND 3 
                 </p>
@@ -33,7 +33,7 @@ export default function Schedule() {
               <div
                 class="glassmorphism text-white col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md"
               >
-                <h3 class="font-semibold text-lg mb-1">25 MAY</h3>
+                <h3 class="font-semibold text-lg mb-1">09 MAY</h3>
                 <p class="leading-tight text-justify">
                   HACKATHON ROUND 2
                 </p>
@@ -102,7 +102,9 @@ export default function Schedule() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+
+        <div className="text-4xl font-serif font-extrabold text-center">Coming Soon</div>
     </div>
   );
 }

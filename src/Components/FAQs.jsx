@@ -24,7 +24,7 @@ const faqsData = [
   },
   {
     question: "I would like to ask additional questions.",
-    answer: "Reach us directly at galgotiahackathon24@gmail.com. We are here to help you!",
+    answer: "Reach us directly at galgotiahackathon@gmail.com. We are here to help you!",
   },
   {
     question: "Will there be swags?",
@@ -32,7 +32,7 @@ const faqsData = [
   },
   {
     question: "When and where will the hackathon be held?",
-    answer: "The hackathon will take place at Galgotias Campus One on May 25-26, 2024. Directions to the location are available on our website."
+    answer: "The hackathon will take place at Galgotias Campus One on May 09-10, 2025. Directions to the location are available on our website."
   },
   {
     question: "Is a female candidate necessary to take part in the competition?",
@@ -40,7 +40,7 @@ const faqsData = [
   },
   {
     question: "When is the last date to submit the ppt?",
-    answer: "The deadline for submitting your ppt for the first round is May 18th."
+    answer: "The deadline for submitting your ppt for the first round is May 6th."
   },
   {
     question: "Will there be screening based on ppt submissions?",
@@ -119,7 +119,7 @@ const faqsData = [
 export default function FAQs() {
   return (
     <div className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh] glassmorphism" id="faq">
-      <Heading index={"08"} title={"FAQ's"} />
+      <Heading index={"04"} title={"FAQ's"} />
 
       <div className="my-6 space-y-4">
         {faqsData.map((faq, index) => (

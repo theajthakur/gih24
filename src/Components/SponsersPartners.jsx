@@ -23,7 +23,7 @@ const SponsersPartners = () => {
       className="flex flex-col justify-center w-full max-w-4xl my-10 glassmorphism"
       id="sponsors"
     >
-      <Heading index={"05"} title={"Sponsors and Partners"} />
+      <Heading index={"03"} title={"Sponsors and Partners"} />
       {/* <div className="slider">
         <div className="slide-track">
           <img src="/images/Sponsers/images.png" className="slide" />
@@ -61,7 +61,7 @@ const SponsersPartners = () => {
         <div className="font-mono text-md md:text-3xl w-full">
           Looking for Sponsors and Partners
         </div>
-        <a href="https://forms.gle/JXfT49HFqTMb63dW8" target="_blank"><Button title="Become Sponsor/ Partners" styles={'text-sm'} /></a>
+        <a href="https://forms.gle/toWc8mR5kX5E5PX17" target="_blank"><Button title="Become Sponsor/ Partners" styles={'text-sm'} /></a>
       </div>
     </div>
     // </div>

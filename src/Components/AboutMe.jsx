@@ -20,7 +20,7 @@ export const AboutMe = () => {
             from across the country live! ✨ But that's not all - win
             <span className="text-primary"> amazing prizes and goodies
             </span> by brainstorming and creating the ultimate hack! Get ready for an unforgettable night of fun, coding, and much more on
-            <span className="text-primary"> 25 and 26 May </span>.
+            <span className="text-primary"> 09 and 10 May </span>.
           </p>
         </div>
         <div

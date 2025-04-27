@@ -30,12 +30,12 @@ function App() {
       <div className="flex flex-col items-center justify-center">
         <Introduction />
         <AboutMe />
-        <Prizes />
-        <Organiser/>
+        {/* <Prizes /> */}
+        {/* <Organiser/> */}
         <Themes />
         <Schedule />
         <SponsersPartners />
-        <SpeakerJudges />
+        {/* <SpeakerJudges /> */}
         {/* <Team />
         <Mentors /> */}
         <CommunityPartners />
