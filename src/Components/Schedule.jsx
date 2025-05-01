@@ -4,7 +4,8 @@ import Heading from "../UI elements/Heading";
 export default function Schedule() {
   return (
     <div className="flex flex-col justify-center w-full max-w-4xl min-h-[40vh]  text-off_white" id="schedule">
-      <Heading title={"Schedule"} />
+      <Heading index={"03"} title={"Schedule"} />
+
       <p className="text-lightest_slate">
       </p>
 <div class="container glassmorphism">

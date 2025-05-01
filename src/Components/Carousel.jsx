@@ -6,7 +6,7 @@ import Heading from "../UI elements/Heading";
 export default function CarouselComp() {
   return (
     <div className="flex flex-col justify-center w-full max-w-4xl min-h-[70vh] glassmorphism" id="gallery">
-      <Heading title={"Past Edition"} />
+      <Heading title={"Past Edition"} index={"06"}/>
       <Carousel
         showStatus={false}
         showArrows={false}

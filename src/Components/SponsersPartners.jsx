@@ -23,7 +23,7 @@ const SponsersPartners = () => {
       className="flex flex-col justify-center w-full max-w-4xl my-10 glassmorphism"
       id="sponsors"
     >
-      <Heading index={"03"} title={"Sponsors and Partners"} />
+      <Heading index={"04"} title={"Sponsors and Partners"} />
       {/* <div className="slider">
         <div className="slide-track">
           <img src="/images/Sponsers/images.png" className="slide" />

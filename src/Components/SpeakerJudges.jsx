@@ -29,7 +29,7 @@ const SpeakerJudges = () => {
       className="flex flex-col justify-center w-full max-w-4xl my-10 glassmorphism text-off_white"
       id="judges"
     >
-      <Heading index={"06"} title={"Speaker and Judges"} />
+      <Heading index={"05"} title={"Speaker and Judges"} />
       <div className="font-mono text-md md:text-2xl mt-8 text-center">
         Past Speaker and Judges
       </div>
