@@ -5,10 +5,7 @@ import Heading from "../UI elements/Heading";
 
 export default function CarouselComp() {
   return (
-    <div
-      className="flex flex-col justify-center w-full max-w-4xl min-h-[70vh] glassmorphism"
-      id="prizes"
-    >
+    <div className="flex flex-col justify-center w-full max-w-4xl min-h-[70vh] glassmorphism" id="gallery">
       <Heading title={"Past Edition"} />
       <Carousel
         showStatus={false}
@@ -18,17 +15,29 @@ export default function CarouselComp() {
         autoPlay
         emulateTouch
       >
-        {/* <div className="rounded-md">
-          <img src="/images/carousel4.jpeg" className="rounded-md" />
-        </div> */}
         <div className="rounded-md">
-          <img src="/images/carousel3.jpeg" className="rounded-md" />
+          <img src="/images/carousel/1.jpeg" className="rounded-md" />
         </div>
         <div className="rounded-md">
-          <img src="/images/carousel1.jpeg" className="rounded-md" />
+          <img src="/images/carousel/2.jpeg" className="rounded-md" />
         </div>
         <div className="rounded-md">
-          <img src="/images/carousel2.jpeg" className="rounded-md" />
+          <img src="/images/carousel/3.jpeg" className="rounded-md" />
+        </div>
+        <div className="rounded-md">
+          <img src="/images/carousel/4.jpeg" className="rounded-md" />
+        </div>
+        <div className="rounded-md">
+          <img src="/images/carousel/5.jpeg" className="rounded-md" />
+        </div>
+        <div className="rounded-md">
+          <img src="/images/carousel/6.jpeg" className="rounded-md" />
+        </div>
+        <div className="rounded-md">
+          <img src="/images/carousel/7.jpeg" className="rounded-md" />
+        </div>
+        <div className="rounded-md">
+          <img src="/images/carousel/8.jpeg" className="rounded-md" />
         </div>
       </Carousel>
     </div>

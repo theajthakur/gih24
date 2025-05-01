@@ -35,11 +35,11 @@ function App() {
         <Themes />
         <Schedule />
         <SponsersPartners />
-        {/* <SpeakerJudges /> */}
+        <SpeakerJudges />
         {/* <Team />
         <Mentors /> */}
         <CommunityPartners />
-        {/* <CarouselComp /> */}
+        <CarouselComp />
         {/* <OrgTeam /> */}
         <FAQs />
         <Contact />

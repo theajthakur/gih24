@@ -30,7 +30,9 @@ const SpeakerJudges = () => {
       id="judges"
     >
       <Heading index={"06"} title={"Speaker and Judges"} />
-
+      <div className="font-mono text-md md:text-2xl mt-8 text-center">
+        Past Speaker and Judges
+      </div>
       <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3">
       {items.map((item) => (
               <div className="text-center text-gray-400 dark:text-gray-400">

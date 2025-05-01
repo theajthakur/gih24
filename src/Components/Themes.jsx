@@ -13,6 +13,7 @@ export default function Themes() {
     { id: 8, imgSrc: "/images/themeLogos/sec.png", title: "Security" },
     { id: 9, imgSrc: "/images/themeLogos/sc.png", title: "Smart City" },
     { id: 10, imgSrc: "/images/themeLogos/fin.png", title: "Fintech" },
+    { id: 11, imgSrc: "/images/themeLogos/saas.png", title: "Saas" },
   ];
   return (
     <div

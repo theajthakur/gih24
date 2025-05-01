@@ -43,12 +43,12 @@ const Navbar = () => {
     { id: "01", name: "Intro", to: "intro" },
     // { id: "02", name: "Patrons", to: "prizes" },
     { id: "02", name: "Themes", to: "themes" },
-    // { id: "04", name: "Organisers", to: "organiser" },
-    { id: "03", name: "Sponsors", to: "sponsors" },
-    // { id: "06", name: "Judges", to: "judges" },
-    // { id: "06", name: "Team", to: "team" },
-    { id: "04", name: "FAQ", to: "faq" },
-    { id: "05", name: "Guidelines", to: "guidelines" },
+    { id: "03", name: "Schedule", to: "schedule" },
+    { id: "04", name: "Sponsors", to: "sponsors" },
+    { id: "05", name: "Judges", to: "judges" },
+    { id: "06", name: "Gallery", to: "gallery" },
+    { id: "07", name: "FAQ", to: "faq" },
+    { id: "08", name: "Guidelines", to: "guidelines" },
   ];
 
   return (
@@ -113,14 +113,14 @@ const Navbar = () => {
                 </motion.li>
               ))}
               {/* Register Button */}
-              <a href="#" rel="noopener noreferrer">
+              <a href="https://unstop.com/p/1472431" rel="noopener noreferrer">
                 <motion.li
                   initial={{ y: -10, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ duration: 0.1 }}
                   className="flex gap-1 hover:cursor-pointer"
                 >
-                  <Button title="Loading GIH25.." className={"py-2"} />
+                  <Button title="Register Now" className={"py-2"} />
                 </motion.li>
               </a>
             </ul>
@@ -205,9 +205,9 @@ const Navbar = () => {
                 ))}
                {/* Register Button */}
                <a
-                  className="h-[8%]" href="#" >
+                  className="h-[8%]" href="https://unstop.com/p/1472431" >
                   <li className="h-[15%] w-full items-center justify-center flex gap-1 hover:cursor-pointer">
-                    <Button title="Loading GIH25.." />
+                    <Button title="Register Now" />
                   </li>
                 </a>
               </ul>
