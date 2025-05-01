@@ -33,7 +33,7 @@ export const AboutMe = () => {
           className="relative"
         >
           <div
-            class={` ${isHovered
+            className={` ${isHovered
               ? `translate-x-1 translate-y-1`
               : `translate-x-0 translate-y-0`
               } duration-300 absolute top-4 -right-4 -bottom-4 left-4 border-2 border-primary`}

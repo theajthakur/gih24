@@ -35,7 +35,7 @@ const SpeakerJudges = () => {
       </div>
       <div className="grid w-full grid-cols-2 gap-6 my-6 rounded-md place-self-center lg:grid-cols-3">
       {items.map((item) => (
-              <div className="text-center text-gray-400 dark:text-gray-400">
+              <div key={item.id} className="text-center text-gray-400 dark:text-gray-400">
               <img className="mx-auto mb-4 w-36 h-36 rounded-full" src={item.imgSrc} alt={item.name}/>
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-white dark:text-white">
                   <a href="#">{item.name}</a>

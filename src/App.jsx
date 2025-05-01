@@ -19,10 +19,11 @@ import CarouselComp from "./Components/Carousel";
 import FAQs from "./Components/FAQs";
 import OrgTeam from "./Components/OrgTeam";
 import Organiser from "./Components/Organisers";
-
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   return (
     <div className="custom-scrollbar">
+      <Analytics/>
       <ParticlesComponent />
       <Navbar />
       <LeftSidebar />
