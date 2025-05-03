@@ -13,11 +13,11 @@ export default function Themes() {
     { id: 8, imgSrc: "/images/themeLogos/sec.png", title: "Security" },
     { id: 9, imgSrc: "/images/themeLogos/sc.png", title: "Smart City" },
     { id: 10, imgSrc: "/images/themeLogos/fin.png", title: "Fintech" },
-    { id: 11, imgSrc: "/images/themeLogos/saas.png", title: "Saas" },
+    { id: 11, imgSrc: "/images/themeLogos/saas.png", title: "SaaS" },
   ];
   return (
     <div
-      className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh] glassmorphism "
+      className="flex flex-col justify-center w-full max-w-4xl min-h-[80vh] glassmorphism mt-5"
       id="themes"
     >
       <Heading index={"02"} title={"Our Themes"} />
