@@ -1,5 +1,3 @@
-![GIH Logo](src/Assets/Images/gih.png)
-
 # Galgotia International Hackathon 2025
 
 **Official website of GIH 2025 – Where Innovation Meets Impact.**
