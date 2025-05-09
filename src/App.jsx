@@ -20,6 +20,8 @@ import FAQs from "./Components/FAQs";
 import OrgTeam from "./Components/OrgTeam";
 import Organiser from "./Components/Organisers";
 import { Analytics } from "@vercel/analytics/react";
+import ChatBot from "./Components/ChatBot";
+import "bootstrap-icons/font/bootstrap-icons.css";
 function App() {
   return (
     <div className="custom-scrollbar">
@@ -45,6 +47,7 @@ function App() {
         <FAQs />
         <Contact />
         <Footer />
+        <ChatBot />
       </div>
     </div>
   );
