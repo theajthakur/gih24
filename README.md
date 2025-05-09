@@ -45,3 +45,11 @@ Special thanks to all our collaborators, supporters, and team members who made G
 ## 🔗 Visit Now
 
 👉 [gih25.vercel.app](https://gih25.vercel.app)
+
+---
+
+### 🙌 Credits
+
+**Organized by:** [LOOP Club](#)  
+**Built by:** [Prerit](https://github.com/prerit008)  
+**Maintained by:** [Vijay](https://github.com/theajthakur)
