@@ -46,8 +46,9 @@ Special thanks to all our collaborators, supporters, and team members who made G
 
 ---
 
+<!--
 ### 🙌 Credits
 
-**Organized by:** [LOOP Club](#)  
-**Built by:** [Prerit](https://github.com/prerit008)  
-**Maintained by:** [Vijay](https://github.com/theajthakur)
+**Organized by:** [LOOP Club](#)
+**Built by:** [Prerit](https://github.com/prerit008)
+**Maintained by:** [Vijay](https://github.com/theajthakur) -->
