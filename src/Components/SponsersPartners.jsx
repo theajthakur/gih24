@@ -5,7 +5,6 @@ import Slider from "./Slider";
 
 const SponsersPartners = () => {
   const slides = [
-    { source: "/images/Sponsers/byjus.png" },
     { source: "/images/Sponsers/pw.jpg" },
     { source: "/images/Sponsers/rb.jpg" },
     { source: "/images/Sponsers/royal_book.png" },
