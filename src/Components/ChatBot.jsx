@@ -15,7 +15,7 @@ export default function ChatBot() {
   ]);
   const handleMessageSend = () => {};
   const API_URL = "https://treshop-backend.onrender.com/gih/chat";
-  // const API_URL = "http://localhost:5000/portfolio/chat";
+  // const API_URL = "http://localhost:5000/gih/chat";
 
   const generateAiMessage = async (query) => {
     setAiProcessing(true);
@@ -46,6 +46,10 @@ export default function ChatBot() {
   return (
     <div
       className={`chatbot-container ${chatBotVisibility ? "only-chat" : ""}`}
+      style={{
+        bottom: chatBotVisibility ? 0 : 20,
+        right: chatBotVisibility ? 10 : 50,
+      }}
     >
       {chatBotVisibility ? (
         <div className="chatbot-box">
@@ -56,7 +60,9 @@ export default function ChatBot() {
                   <img src="/images/loop.png" alt="ai-image" />
                 </div>
                 <div className="ai-name-container">
-                  <h4 className="m-0">LOOP AI</h4>
+                  <h3 className="m-0">
+                    <b>LOOP AI</b>
+                  </h3>
                 </div>
                 <div className="ai-head-option">
                   <div className="main-icon">
